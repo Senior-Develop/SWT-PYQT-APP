@@ -1,0 +1,4 @@
+2021-08-01 04:08:59.057 | INFO     | BL.bot.SwT:<module>:66 - Running in test mode: False
+2021-08-01 04:08:59.058 | INFO     | BL.bot.SwT:<module>:67 - Running on selected quote currencies: False
+2021-08-01 04:08:59.059 | INFO     | BL.bot.SwT:<module>:68 - Always generate ST long buy signal: False
+2021-08-01 04:08:59.060 | INFO     | BL.bot.SwT:<module>:69 - Always generate ST short sell signal: False

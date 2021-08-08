@@ -1,0 +1,7 @@
+2021-08-07 10:26:40.099 | INFO     | BL.bot.SwT:<module>:76 - Running in test mode: False
+2021-08-07 10:26:40.100 | INFO     | BL.bot.SwT:<module>:77 - Running on selected quote currencies: False
+2021-08-07 10:26:40.101 | INFO     | BL.bot.SwT:<module>:78 - Always generate ST long buy signal: False
+2021-08-07 10:26:40.102 | INFO     | BL.bot.SwT:<module>:79 - Always generate ST short sell signal: False
+2021-08-07 10:26:40.102 | INFO     | BL.bot.SwT:<module>:80 - Filter markets by volume and price: True
+2021-08-07 10:26:40.103 | INFO     | BL.bot.SwT:<module>:81 - Stop %: 2
+2021-08-07 10:26:40.104 | INFO     | BL.bot.SwT:<module>:82 - Exit %: 5

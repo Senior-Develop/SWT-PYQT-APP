@@ -1,0 +1,5 @@
+2021-08-02 10:22:57.986 | INFO     | BL.bot.SwT:<module>:73 - Running in test mode: True
+2021-08-02 10:22:57.987 | INFO     | BL.bot.SwT:<module>:74 - Running on selected quote currencies: False
+2021-08-02 10:22:57.988 | INFO     | BL.bot.SwT:<module>:75 - Always generate ST long buy signal: False
+2021-08-02 10:22:57.989 | INFO     | BL.bot.SwT:<module>:76 - Always generate ST short sell signal: False
+2021-08-02 10:22:57.989 | INFO     | BL.bot.SwT:<module>:77 - Use CPD to exit trades: False

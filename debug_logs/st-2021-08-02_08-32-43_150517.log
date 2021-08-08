@@ -1,0 +1,597 @@
+2021-08-02 08:32:43.173 | INFO     | BL.bot.SwT:<module>:73 - Running in test mode: False
+2021-08-02 08:32:43.175 | INFO     | BL.bot.SwT:<module>:74 - Running on selected quote currencies: False
+2021-08-02 08:32:43.176 | INFO     | BL.bot.SwT:<module>:75 - Always generate ST long buy signal: False
+2021-08-02 08:32:43.176 | INFO     | BL.bot.SwT:<module>:76 - Always generate ST short sell signal: False
+2021-08-02 08:32:43.177 | INFO     | BL.bot.SwT:<module>:77 - Use CPD to exit trades: True
+2021-08-02 08:32:43.178 | INFO     | BL.bot.SwT:<module>:79 - CPD exit percent long: -4
+2021-08-02 08:32:43.179 | INFO     | BL.bot.SwT:<module>:80 - CPD exit percent short: 4
+2021-08-02 08:32:43.179 | INFO     | BL.bot.SwT:<module>:81 - CPD price source: ENUM_APPLIED_PRICE.PRICE_CLOSE
+2021-08-02 08:32:43.180 | INFO     | BL.bot.SwT:<module>:82 - CPD open opposite: True
+2021-08-02 08:35:12.839 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:35:12.841 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:35:14.187 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for ZRX-USDT
+2021-08-02 08:35:14.189 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for ZRX-USDT
+2021-08-02 08:35:15.517 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '6a3934b5-ade4-4292-a239-4d94b4fd3232', 'marketSymbol': 'ZRX-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '190.03991434', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '190.03991434', 'commission': '0.30417949', 'proceeds': '152.08974731', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:35:04.77Z', 'updatedAt': '2021-08-02T13:35:04.77Z', 'closedAt': '2021-08-02T13:35:04.77Z'}
+2021-08-02 08:35:15.518 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for ZRX-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ZRX-USDT', 'requested_qty': 190.03991434, 'executed_qty': 190.03991434, 'avg_price': 0.8003042299729549, 'commission': 0.30417949, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 14, 196313)}
+2021-08-02 08:35:17.208 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ZRX-USDT', 'requested_qty': 190.03991434, 'executed_qty': 190.03991434, 'avg_price': 0.8003042299729549, 'commission': 0.30417949, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 14, 196313)}
+2021-08-02 08:35:17.214 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:35:18.557 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for ZRX-USDT
+2021-08-02 08:35:18.559 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for ZRX-USDT
+2021-08-02 08:35:19.895 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '41c9b670-b623-4b8e-aecb-3d86039e8d53', 'marketSymbol': 'ZRX-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '190.03991434', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '190.03991434', 'commission': '0.30419917', 'proceeds': '152.09958568', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:35:09.12Z', 'updatedAt': '2021-08-02T13:35:09.12Z', 'closedAt': '2021-08-02T13:35:09.12Z'}
+2021-08-02 08:35:19.896 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for ZRX-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ZRX-USDT', 'requested_qty': 190.03991434, 'executed_qty': 190.03991434, 'avg_price': 0.8003559999920804, 'commission': 0.30419917, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 18, 566621)}
+2021-08-02 08:35:21.613 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ZRX-USDT', 'requested_qty': 190.03991434, 'executed_qty': 190.03991434, 'avg_price': 0.8003559999920804, 'commission': 0.30419917, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 18, 566621)}
+2021-08-02 08:35:21.619 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:35:22.956 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for ZRX-USDT
+2021-08-02 08:35:22.958 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for ZRX-USDT
+2021-08-02 08:35:24.290 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'dd453f59-2484-481b-b619-0f11fa1386bf', 'marketSymbol': 'ZRX-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '190.03991434', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '190.03991434', 'commission': '0.30419917', 'proceeds': '152.09958948', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:35:13.53Z', 'updatedAt': '2021-08-02T13:35:13.53Z', 'closedAt': '2021-08-02T13:35:13.53Z'}
+2021-08-02 08:35:24.293 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for ZRX-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ZRX-USDT', 'requested_qty': 190.03991434, 'executed_qty': 190.03991434, 'avg_price': 0.8003560199878798, 'commission': 0.30419917, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 22, 966850)}
+2021-08-02 08:35:25.615 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ZRX-USDT', 'requested_qty': 190.03991434, 'executed_qty': 190.03991434, 'avg_price': 0.8003560199878798, 'commission': 0.30419917, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 22, 966850)}
+2021-08-02 08:35:25.776 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XTZ-USDT
+2021-08-02 08:35:27.123 | DEBUG    | BL.bot.SwT:monitorExit:2824 - Exiting trade for XTZ-USDT
+2021-08-02 08:35:27.125 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for XTZ-USDT
+2021-08-02 08:35:28.452 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '5329d98f-8e0f-461d-975e-889878273af5', 'marketSymbol': 'XTZ-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '47.15705460', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '47.15705460', 'commission': '0.30340877', 'proceeds': '151.70438894', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:35:17.69Z', 'updatedAt': '2021-08-02T13:35:17.69Z', 'closedAt': '2021-08-02T13:35:17.69Z'}
+2021-08-02 08:35:28.453 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for XTZ-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.1570546, 'executed_qty': 47.1570546, 'avg_price': 3.2170030598136634, 'commission': 0.30340877, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 27, 132705)}
+2021-08-02 08:35:30.136 | DEBUG    | BL.bot.SwT:monitorExit:2826 - Trade exit response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.1570546, 'executed_qty': 47.1570546, 'avg_price': 3.2170030598136634, 'commission': 0.30340877, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 27, 132705)}
+2021-08-02 08:35:30.141 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:35:31.494 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for XTZ-USDT
+2021-08-02 08:35:31.496 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for XTZ-USDT
+2021-08-02 08:35:33.203 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '4c33846a-0aeb-4921-a1c6-4fb82119f67c', 'marketSymbol': 'XTZ-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '46.43962848', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '46.43962848', 'commission': '0.29879285', 'proceeds': '149.39642646', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:35:22.45Z', 'updatedAt': '2021-08-02T13:35:22.45Z', 'closedAt': '2021-08-02T13:35:22.45Z'}
+2021-08-02 08:35:33.204 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for XTZ-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 46.43962848, 'executed_qty': 46.43962848, 'avg_price': 3.2170030499778877, 'commission': 0.29879285, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 31, 504011)}
+2021-08-02 08:35:34.531 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 46.43962848, 'executed_qty': 46.43962848, 'avg_price': 3.2170030499778877, 'commission': 0.29879285, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 31, 504011)}
+2021-08-02 08:35:47.977 | DEBUG    | BL.bot.SwT:monitorExit:2824 - Exiting trade for XTZ-USDT
+2021-08-02 08:35:47.979 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for XTZ-USDT
+2021-08-02 08:35:49.373 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '7ef477d4-56b6-4df7-9145-a65a959c0f30', 'marketSymbol': 'XTZ-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '47.15705460', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '47.15705460', 'commission': '0.30356312', 'proceeds': '151.78156005', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:35:38.62Z', 'updatedAt': '2021-08-02T13:35:38.62Z', 'closedAt': '2021-08-02T13:35:38.62Z'}
+2021-08-02 08:35:49.376 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for XTZ-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.1570546, 'executed_qty': 47.1570546, 'avg_price': 3.2186395299166963, 'commission': 0.30356312, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 47, 986915)}
+2021-08-02 08:35:50.717 | DEBUG    | BL.bot.SwT:monitorExit:2826 - Trade exit response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.1570546, 'executed_qty': 47.1570546, 'avg_price': 3.2186395299166963, 'commission': 0.30356312, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 47, 986915)}
+2021-08-02 08:35:50.723 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:35:54.354 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:35:55.838 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for SBD-BTC
+2021-08-02 08:35:55.840 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:35:57.171 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for SBD-BTC
+2021-08-02 08:35:57.173 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for SBD-BTC
+2021-08-02 08:35:58.674 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '0ef3946e-88ab-4784-9a2d-777145e5e307', 'marketSymbol': 'SBD-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '0.66677780', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '0.66677780', 'commission': '0.00000023', 'proceeds': '0.00011500', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:35:47.76Z', 'updatedAt': '2021-08-02T13:35:47.76Z', 'closedAt': '2021-08-02T13:35:47.76Z'}
+2021-08-02 08:35:58.674 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for SBD-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'SBD-BTC', 'requested_qty': 0.6667778, 'executed_qty': 0.6667778, 'avg_price': 0.00017247124904278457, 'commission': 2.3e-07, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 57, 180825)}
+2021-08-02 08:36:00.857 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'SBD-BTC', 'requested_qty': 0.6667778, 'executed_qty': 0.6667778, 'avg_price': 0.00017247124904278457, 'commission': 2.3e-07, 'executed_time': datetime.datetime(2021, 8, 2, 8, 35, 57, 180825)}
+2021-08-02 08:36:00.873 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:36:02.259 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for SBD-BTC
+2021-08-02 08:36:02.259 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for SBD-BTC
+2021-08-02 08:36:04.144 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '3e2709c1-85c3-47a0-a4c5-a50ac10476ca', 'marketSymbol': 'SBD-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '0.66677780', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '0.66677780', 'commission': '0.00000023', 'proceeds': '0.00011501', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:35:53.36Z', 'updatedAt': '2021-08-02T13:35:53.36Z', 'closedAt': '2021-08-02T13:35:53.36Z'}
+2021-08-02 08:36:04.145 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for SBD-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'SBD-BTC', 'requested_qty': 0.6667778, 'executed_qty': 0.6667778, 'avg_price': 0.00017248624654270134, 'commission': 2.3e-07, 'executed_time': datetime.datetime(2021, 8, 2, 8, 36, 2, 259845)}
+2021-08-02 08:36:05.512 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'SBD-BTC', 'requested_qty': 0.6667778, 'executed_qty': 0.6667778, 'avg_price': 0.00017248624654270134, 'commission': 2.3e-07, 'executed_time': datetime.datetime(2021, 8, 2, 8, 36, 2, 259845)}
+2021-08-02 08:36:05.517 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:36:13.521 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for SBD-BTC
+2021-08-02 08:36:13.523 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for SBD-BTC
+2021-08-02 08:36:14.879 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'd26e1e7d-024b-40a2-ac9a-d6560d319dba', 'marketSymbol': 'SBD-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '0.66677780', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '0.66677780', 'commission': '0.00000022', 'proceeds': '0.00011491', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:36:04.1Z', 'updatedAt': '2021-08-02T13:36:04.1Z', 'closedAt': '2021-08-02T13:36:04.1Z'}
+2021-08-02 08:36:14.880 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for SBD-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'SBD-BTC', 'requested_qty': 0.6667778, 'executed_qty': 0.6667778, 'avg_price': 0.00017233627154353368, 'commission': 2.2e-07, 'executed_time': datetime.datetime(2021, 8, 2, 8, 36, 13, 530645)}
+2021-08-02 08:36:16.239 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'SBD-BTC', 'requested_qty': 0.6667778, 'executed_qty': 0.6667778, 'avg_price': 0.00017233627154353368, 'commission': 2.2e-07, 'executed_time': datetime.datetime(2021, 8, 2, 8, 36, 13, 530645)}
+2021-08-02 08:36:16.380 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:36:16.383 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:36:17.975 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:36:19.331 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:36:20.685 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:36:20.686 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: ZRX-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:36:20.699 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:36:20.701 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:36:22.302 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:36:23.639 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:36:25.393 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:36:25.394 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: ZRX-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:36:25.418 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:36:25.420 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:36:26.779 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:36:28.118 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:36:29.471 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XTZ-USDT
+2021-08-02 08:36:30.931 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:36:32.277 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XTZ-USDT
+2021-08-02 08:36:33.922 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:36:35.268 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XTZ-USDT
+2021-08-02 08:36:48.659 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:36:50.131 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XTZ-USDT
+2021-08-02 08:36:51.760 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:36:53.645 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for SBD-BTC
+2021-08-02 08:36:55.397 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:36:58.082 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:37:01.552 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:37:03.470 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for SBD-BTC
+2021-08-02 08:37:04.866 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:37:14.223 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:37:17.067 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:37:18.684 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for SBD-BTC
+2021-08-02 08:37:20.056 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:37:23.008 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:37:26.113 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:37:27.485 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:37:27.497 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: ADA-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:37:28.183 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for ADA-USDT
+2021-08-02 08:37:28.198 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for ADA-USDT
+2021-08-02 08:37:29.543 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '9f415e9e-8111-4acc-8c9b-d50f7c094203', 'marketSymbol': 'ADA-USDT', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '113.73897601', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '113.73897601', 'commission': '0.30054500', 'proceeds': '150.27250266', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:37:18.77Z', 'updatedAt': '2021-08-02T13:37:18.77Z', 'closedAt': '2021-08-02T13:37:18.77Z'}
+2021-08-02 08:37:29.545 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for ADA-USDT: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'ADA-USDT', 'requested_qty': 113.73897601, 'executed_qty': 113.73897601, 'avg_price': 1.3212049899832747, 'commission': 0.300545, 'executed_time': datetime.datetime(2021, 8, 2, 8, 37, 28, 199204)}
+2021-08-02 08:37:30.916 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'ADA-USDT', 'requested_qty': 113.73897601, 'executed_qty': 113.73897601, 'avg_price': 1.3212049899832747, 'commission': 0.300545, 'executed_time': datetime.datetime(2021, 8, 2, 8, 37, 28, 199204)}
+2021-08-02 08:37:30.927 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:37:30.927 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: XLM-BTC conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:37:31.631 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for XLM-BTC
+2021-08-02 08:37:31.639 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for XLM-BTC
+2021-08-02 08:37:33.230 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'b42b9b4f-6ddc-4ba3-8347-e2c6ea2bded1', 'marketSymbol': 'XLM-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '16.90140845', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '16.90140845', 'commission': '0.00000023', 'proceeds': '0.00011966', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:37:22.25Z', 'updatedAt': '2021-08-02T13:37:22.25Z', 'closedAt': '2021-08-02T13:37:22.25Z'}
+2021-08-02 08:37:33.231 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for XLM-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XLM-BTC', 'requested_qty': 16.90140845, 'executed_qty': 16.90140845, 'avg_price': 7.0798833336283275e-06, 'commission': 2.3e-07, 'executed_time': datetime.datetime(2021, 8, 2, 8, 37, 31, 639999)}
+2021-08-02 08:37:34.592 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XLM-BTC', 'requested_qty': 16.90140845, 'executed_qty': 16.90140845, 'avg_price': 7.0798833336283275e-06, 'commission': 2.3e-07, 'executed_time': datetime.datetime(2021, 8, 2, 8, 37, 31, 639999)}
+2021-08-02 08:38:49.334 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:38:49.341 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: XEM-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:38:50.034 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for XEM-USDT
+2021-08-02 08:38:50.034 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for XEM-USDT
+2021-08-02 08:38:51.391 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'fac85c65-dfe1-4ee0-a622-cc9be117c536', 'marketSymbol': 'XEM-USDT', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '888.99425000', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '888.99425000', 'commission': '0.30100632', 'proceeds': '150.50316411', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:38:40.62Z', 'updatedAt': '2021-08-02T13:38:40.62Z', 'closedAt': '2021-08-02T13:38:40.62Z'}
+2021-08-02 08:38:51.391 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for XEM-USDT: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XEM-USDT', 'requested_qty': 888.99425, 'executed_qty': 888.99425, 'avg_price': 0.1692959927581084, 'commission': 0.30100632, 'executed_time': datetime.datetime(2021, 8, 2, 8, 38, 50, 50414)}
+2021-08-02 08:38:52.756 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XEM-USDT', 'requested_qty': 888.99425, 'executed_qty': 888.99425, 'avg_price': 0.1692959927581084, 'commission': 0.30100632, 'executed_time': datetime.datetime(2021, 8, 2, 8, 38, 50, 50414)}
+2021-08-02 08:38:52.773 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:38:52.773 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: XEM-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:38:52.778 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XEM-USDT
+2021-08-02 08:38:52.778 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XEM-USDT
+2021-08-02 08:38:54.128 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for XEM-USDT
+2021-08-02 08:38:54.128 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for XEM-USDT
+2021-08-02 08:38:55.484 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '350c9afd-408d-40f5-9b30-0a250d2eff81', 'marketSymbol': 'XEM-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '886.00118000', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '886.00118000', 'commission': '0.29897223', 'proceeds': '149.48611908', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:38:44.71Z', 'updatedAt': '2021-08-02T13:38:44.71Z', 'closedAt': '2021-08-02T13:38:44.71Z'}
+2021-08-02 08:38:55.484 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for XEM-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XEM-USDT', 'requested_qty': 886.00118, 'executed_qty': 886.00118, 'avg_price': 0.16871999998916482, 'commission': 0.29897223, 'executed_time': datetime.datetime(2021, 8, 2, 8, 38, 54, 144036)}
+2021-08-02 08:38:56.803 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XEM-USDT', 'requested_qty': 886.00118, 'executed_qty': 886.00118, 'avg_price': 0.16871999998916482, 'commission': 0.29897223, 'executed_time': datetime.datetime(2021, 8, 2, 8, 38, 54, 144036)}
+2021-08-02 08:38:56.818 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:38:56.818 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: XEM-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:38:56.818 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XEM-USDT
+2021-08-02 08:38:56.818 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XEM-USDT
+2021-08-02 08:39:52.029 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:39:52.029 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: ADA-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:39:52.029 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ADA-USDT
+2021-08-02 08:39:52.029 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ADA-USDT
+2021-08-02 08:39:53.394 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for ADA-USDT
+2021-08-02 08:39:53.394 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for ADA-USDT
+2021-08-02 08:39:54.734 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '2cc31381-8b93-444e-aeb8-0a2af09f2145', 'marketSymbol': 'ADA-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '113.47648902', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '113.47648902', 'commission': '0.29985140', 'proceeds': '149.92570467', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:39:43.98Z', 'updatedAt': '2021-08-02T13:39:43.98Z', 'closedAt': '2021-08-02T13:39:43.98Z'}
+2021-08-02 08:39:54.734 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for ADA-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ADA-USDT', 'requested_qty': 113.47648902, 'executed_qty': 113.47648902, 'avg_price': 1.3212049999500415, 'commission': 0.2998514, 'executed_time': datetime.datetime(2021, 8, 2, 8, 39, 53, 409623)}
+2021-08-02 08:39:56.068 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ADA-USDT', 'requested_qty': 113.47648902, 'executed_qty': 113.47648902, 'avg_price': 1.3212049999500415, 'commission': 0.2998514, 'executed_time': datetime.datetime(2021, 8, 2, 8, 39, 53, 409623)}
+2021-08-02 08:39:56.081 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:39:56.081 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: ADA-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:39:56.085 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ADA-USDT
+2021-08-02 08:39:56.085 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ADA-USDT
+2021-08-02 08:40:13.739 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ADA-USDT
+2021-08-02 08:40:13.741 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ADA-USDT
+2021-08-02 08:40:15.169 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:40:15.170 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:40:16.523 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:40:17.881 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:40:19.298 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XEM-USDT
+2021-08-02 08:40:19.300 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XEM-USDT
+2021-08-02 08:40:21.056 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XLM-BTC
+2021-08-02 08:40:21.059 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XLM-BTC
+2021-08-02 08:40:22.478 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XTZ-USDT
+2021-08-02 08:40:24.214 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:40:25.676 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:40:25.678 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:40:26.354 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:40:27.035 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:40:27.714 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for SBD-BTC
+2021-08-02 08:40:29.071 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:40:32.151 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:40:34.856 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:41:55.080 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ADA-USDT
+2021-08-02 08:41:55.082 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ADA-USDT
+2021-08-02 08:42:46.158 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ADA-USDT
+2021-08-02 08:42:46.161 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ADA-USDT
+2021-08-02 08:43:35.995 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ADA-USDT
+2021-08-02 08:43:35.997 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ADA-USDT
+2021-08-02 08:43:37.564 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ADA-USDT
+2021-08-02 08:43:37.566 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ADA-USDT
+2021-08-02 08:43:40.560 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XLM-BTC
+2021-08-02 08:43:40.562 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XLM-BTC
+2021-08-02 08:45:10.744 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XLM-BTC
+2021-08-02 08:45:10.746 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XLM-BTC
+2021-08-02 08:45:13.179 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ADA-USDT
+2021-08-02 08:45:13.182 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ADA-USDT
+2021-08-02 08:45:14.631 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:45:14.635 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:45:15.989 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:45:17.346 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:45:18.753 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XEM-USDT
+2021-08-02 08:45:18.755 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XEM-USDT
+2021-08-02 08:45:20.181 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XLM-BTC
+2021-08-02 08:45:20.183 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XLM-BTC
+2021-08-02 08:45:21.965 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XTZ-USDT
+2021-08-02 08:45:23.315 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:45:25.117 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:45:25.119 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:45:25.810 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:45:26.503 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:45:27.219 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for SBD-BTC
+2021-08-02 08:45:28.548 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:45:31.249 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:45:33.956 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for SBD-BTC
+2021-08-02 08:45:53.814 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for XTZ-USDT
+2021-08-02 08:45:55.176 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for XTZ-USDT
+2021-08-02 08:46:22.959 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:46:22.982 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:46:23.706 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:46:23.708 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for NMR-USDT
+2021-08-02 08:46:25.032 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '509042cf-2273-4bfd-983f-d94ef6501d52', 'marketSymbol': 'NMR-USDT', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '3.94684910', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.94684910', 'commission': '0.30166386', 'proceeds': '150.83193394', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:46:14.27Z', 'updatedAt': '2021-08-02T13:46:14.27Z', 'closedAt': '2021-08-02T13:46:14.27Z'}
+2021-08-02 08:46:25.033 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for NMR-USDT: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.9468491, 'executed_qty': 3.9468491, 'avg_price': 38.215784317672544, 'commission': 0.30166386, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 23, 709298)}
+2021-08-02 08:46:26.362 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.9468491, 'executed_qty': 3.9468491, 'avg_price': 38.215784317672544, 'commission': 0.30166386, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 23, 709298)}
+2021-08-02 08:46:26.378 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:46:26.378 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:46:26.385 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:46:26.388 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:46:27.773 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:46:27.782 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:46:29.523 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '3d6cf84f-5304-4f9c-91b8-684ad88f0653', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.92507972', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.92507972', 'commission': '0.29835896', 'proceeds': '149.17948113', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:46:18.36Z', 'updatedAt': '2021-08-02T13:46:18.36Z', 'closedAt': '2021-08-02T13:46:18.36Z'}
+2021-08-02 08:46:29.525 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.92507972, 'executed_qty': 3.92507972, 'avg_price': 38.00673916758053, 'commission': 0.29835896, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 27, 783934)}
+2021-08-02 08:46:30.839 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.92507972, 'executed_qty': 3.92507972, 'avg_price': 38.00673916758053, 'commission': 0.29835896, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 27, 783934)}
+2021-08-02 08:46:30.845 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:46:30.846 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:46:30.853 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:46:30.855 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:46:32.211 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:46:32.220 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:46:33.565 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '8229bde6-d304-47dc-a3dd-64aa2fd6aab7', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.94666849', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.94666849', 'commission': '0.30038814', 'proceeds': '150.19407277', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:46:22.82Z', 'updatedAt': '2021-08-02T13:46:22.82Z', 'closedAt': '2021-08-02T13:46:22.82Z'}
+2021-08-02 08:46:33.566 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.94666849, 'executed_qty': 3.94666849, 'avg_price': 38.055913018932074, 'commission': 0.30038814, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 32, 221633)}
+2021-08-02 08:46:34.879 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.94666849, 'executed_qty': 3.94666849, 'avg_price': 38.055913018932074, 'commission': 0.30038814, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 32, 221633)}
+2021-08-02 08:46:34.899 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:46:34.920 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:46:34.932 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:46:34.935 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:46:36.294 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:46:36.303 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:46:37.905 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '4dbe5f25-52e4-4cd0-9468-c61e36fca741', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.94156882', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.94156882', 'commission': '0.30004513', 'proceeds': '150.02256751', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:46:27Z', 'updatedAt': '2021-08-02T13:46:27Z', 'closedAt': '2021-08-02T13:46:27Z'}
+2021-08-02 08:46:37.907 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.94156882, 'executed_qty': 3.94156882, 'avg_price': 38.06163848992493, 'commission': 0.30004513, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 36, 304740)}
+2021-08-02 08:46:39.226 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.94156882, 'executed_qty': 3.94156882, 'avg_price': 38.06163848992493, 'commission': 0.30004513, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 36, 304740)}
+2021-08-02 08:46:39.233 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:46:39.234 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:46:39.241 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:46:39.243 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:46:40.603 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:46:40.632 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:46:41.955 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '573c4f8e-5dbc-47dc-8536-c2e4584ee26d', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.94097590', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.94097590', 'commission': '0.30004544', 'proceeds': '150.02272268', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:46:31.19Z', 'updatedAt': '2021-08-02T13:46:31.19Z', 'closedAt': '2021-08-02T13:46:31.19Z'}
+2021-08-02 08:46:41.956 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.9409759, 'executed_qty': 3.9409759, 'avg_price': 38.06740423863033, 'commission': 0.30004544, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 40, 633171)}
+2021-08-02 08:46:43.269 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.9409759, 'executed_qty': 3.9409759, 'avg_price': 38.06740423863033, 'commission': 0.30004544, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 40, 633171)}
+2021-08-02 08:46:43.281 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:46:43.282 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:46:43.288 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:46:43.293 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:46:44.633 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:46:44.642 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:46:45.962 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '1cde753b-9a83-4a5e-ac75-3a16c0f447b5', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.94037899', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.94037899', 'commission': '0.29982680', 'proceeds': '149.91340172', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:46:35.21Z', 'updatedAt': '2021-08-02T13:46:35.21Z', 'closedAt': '2021-08-02T13:46:35.21Z'}
+2021-08-02 08:46:45.963 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.94037899, 'executed_qty': 3.94037899, 'avg_price': 38.04542712781036, 'commission': 0.2998268, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 44, 644440)}
+2021-08-02 08:46:47.282 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.94037899, 'executed_qty': 3.94037899, 'avg_price': 38.04542712781036, 'commission': 0.2998268, 'executed_time': datetime.datetime(2021, 8, 2, 8, 46, 44, 644440)}
+2021-08-02 08:46:47.293 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:46:47.295 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:46:48.673 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:46:48.676 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:46:48.683 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:47:43.460 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:47:43.460 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:47:43.475 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:48:54.049 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:48:56.842 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:49:01.000 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:01.000 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:01.000 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:49:02.372 | DEBUG    | BL.bot.SwT:monitorExit:2824 - Exiting trade for NMR-USDT
+2021-08-02 08:49:02.372 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:49:03.717 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '1be04289-1d70-42c6-8aa1-2796b4ad29cd', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.94684910', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.94684910', 'commission': '0.30227646', 'proceeds': '151.13823031', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:48:52.96Z', 'updatedAt': '2021-08-02T13:48:52.96Z', 'closedAt': '2021-08-02T13:48:52.96Z'}
+2021-08-02 08:49:03.718 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.9468491, 'executed_qty': 3.9468491, 'avg_price': 38.293389607928006, 'commission': 0.30227646, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 2, 372066)}
+2021-08-02 08:49:05.449 | DEBUG    | BL.bot.SwT:monitorExit:2826 - Trade exit response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.9468491, 'executed_qty': 3.9468491, 'avg_price': 38.293389607928006, 'commission': 0.30227646, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 2, 372066)}
+2021-08-02 08:49:05.454 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:49:06.795 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:49:06.804 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:49:08.128 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '76efbe3f-e6de-4a9f-ade8-a022924ae448', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.92454410', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.92454410', 'commission': '0.30102320', 'proceeds': '150.51160479', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:48:57.37Z', 'updatedAt': '2021-08-02T13:48:57.37Z', 'closedAt': '2021-08-02T13:48:57.37Z'}
+2021-08-02 08:49:08.130 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.9245441, 'executed_qty': 3.9245441, 'avg_price': 38.35136029940395, 'commission': 0.3010232, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 6, 805162)}
+2021-08-02 08:49:09.437 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.9245441, 'executed_qty': 3.9245441, 'avg_price': 38.35136029940395, 'commission': 0.3010232, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 6, 805162)}
+2021-08-02 08:49:09.450 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:09.456 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:10.144 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:49:10.145 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for NMR-USDT
+2021-08-02 08:49:11.890 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '50c7c2b2-4337-41c0-9486-46f7e0a7271d', 'marketSymbol': 'NMR-USDT', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '3.90975045', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.90975045', 'commission': '0.30083814', 'proceeds': '150.41907212', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:49:01.12Z', 'updatedAt': '2021-08-02T13:49:01.12Z', 'closedAt': '2021-08-02T13:49:01.12Z'}
+2021-08-02 08:49:11.892 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for NMR-USDT: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.90975045, 'executed_qty': 3.90975045, 'avg_price': 38.472806396121776, 'commission': 0.30083814, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 10, 146233)}
+2021-08-02 08:49:13.213 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.90975045, 'executed_qty': 3.90975045, 'avg_price': 38.472806396121776, 'commission': 0.30083814, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 10, 146233)}
+2021-08-02 08:49:13.222 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:13.223 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:13.228 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:49:13.230 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:49:14.571 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:49:14.581 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:49:15.920 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '24d6bb05-1c4f-4dad-b1d7-609e8338a1d3', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.89833151', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.89833151', 'commission': '0.29820157', 'proceeds': '149.10078504', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:49:05.17Z', 'updatedAt': '2021-08-02T13:49:05.17Z', 'closedAt': '2021-08-02T13:49:05.17Z'}
+2021-08-02 08:49:15.921 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.89833151, 'executed_qty': 3.89833151, 'avg_price': 38.24733341880409, 'commission': 0.29820157, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 14, 582365)}
+2021-08-02 08:49:17.255 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.89833151, 'executed_qty': 3.89833151, 'avg_price': 38.24733341880409, 'commission': 0.29820157, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 14, 582365)}
+2021-08-02 08:49:17.261 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:17.262 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:17.268 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:49:17.270 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:49:18.617 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:49:18.627 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:49:20.379 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '91b5aae5-c041-42f1-8fbc-5135ad8265f6', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.91120416', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.91120416', 'commission': '0.29965011', 'proceeds': '149.82505812', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:49:09.25Z', 'updatedAt': '2021-08-02T13:49:09.25Z', 'closedAt': '2021-08-02T13:49:09.25Z'}
+2021-08-02 08:49:20.380 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.91120416, 'executed_qty': 3.91120416, 'avg_price': 38.3066319197206, 'commission': 0.29965011, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 18, 628541)}
+2021-08-02 08:49:21.738 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.91120416, 'executed_qty': 3.91120416, 'avg_price': 38.3066319197206, 'commission': 0.29965011, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 18, 628541)}
+2021-08-02 08:49:21.743 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:21.744 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:21.751 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:49:21.753 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:49:23.079 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:49:23.089 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:49:24.828 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '1b7250ae-92a6-4b63-9c4a-9dd6e60e393c', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.89622739', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.89622739', 'commission': '0.29886899', 'proceeds': '149.43449585', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:49:13.68Z', 'updatedAt': '2021-08-02T13:49:13.68Z', 'closedAt': '2021-08-02T13:49:13.68Z'}
+2021-08-02 08:49:24.829 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.89622739, 'executed_qty': 3.89622739, 'avg_price': 38.35363824851095, 'commission': 0.29886899, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 23, 91108)}
+2021-08-02 08:49:26.146 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.89622739, 'executed_qty': 3.89622739, 'avg_price': 38.35363824851095, 'commission': 0.29886899, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 23, 91108)}
+2021-08-02 08:49:26.151 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:26.152 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:26.158 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:49:26.160 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:49:27.497 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:49:27.513 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:49:29.078 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'd22c2347-f7f0-4a4f-8bcd-54e70e845d6e', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.92184204', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.92184204', 'commission': '0.30083382', 'proceeds': '150.41691087', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:49:18.1Z', 'updatedAt': '2021-08-02T13:49:18.1Z', 'closedAt': '2021-08-02T13:49:18.1Z'}
+2021-08-02 08:49:29.078 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.92184204, 'executed_qty': 3.92184204, 'avg_price': 38.35363824852059, 'commission': 0.30083382, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 27, 513308)}
+2021-08-02 08:49:30.403 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.92184204, 'executed_qty': 3.92184204, 'avg_price': 38.35363824852059, 'commission': 0.30083382, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 27, 513308)}
+2021-08-02 08:49:30.403 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:30.403 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:30.418 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:49:30.418 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:49:31.753 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for NMR-USDT
+2021-08-02 08:49:31.753 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:49:33.087 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'd04d82f7-b7f4-436e-af6e-e78609316495', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '3.91577104', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '3.91577104', 'commission': '0.30121279', 'proceeds': '150.60639887', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:49:22.34Z', 'updatedAt': '2021-08-02T13:49:22.34Z', 'closedAt': '2021-08-02T13:49:22.34Z'}
+2021-08-02 08:49:33.087 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.91577104, 'executed_qty': 3.91577104, 'avg_price': 38.46149259789203, 'commission': 0.30121279, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 31, 753118)}
+2021-08-02 08:49:34.443 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 3.91577104, 'executed_qty': 3.91577104, 'avg_price': 38.46149259789203, 'commission': 0.30121279, 'executed_time': datetime.datetime(2021, 8, 2, 8, 49, 31, 753118)}
+2021-08-02 08:49:34.443 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:34.443 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:34.443 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:49:34.443 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:49:35.823 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:35.823 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:35.823 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:49:35.823 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:49:37.180 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3700 - ST signal
+2021-08-02 08:49:37.180 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2176 - symbol: NMR-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-02 08:49:37.196 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:49:37.196 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:50:13.546 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:50:13.549 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:50:14.881 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:50:16.231 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:50:17.609 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:50:17.624 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:50:19.169 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:50:19.181 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:50:19.860 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:50:20.900 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:50:23.005 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:50:23.005 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:51:19.765 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:51:19.768 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:51:20.460 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:51:21.148 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:53:59.146 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:53:59.146 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:53:59.863 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:54:00.549 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:54:20.096 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:54:20.098 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:54:20.803 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:54:21.482 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:54:34.242 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for NMR-USDT
+2021-08-02 08:54:35.614 | DEBUG    | BL.bot.SwT:monitorExit:2824 - Exiting trade for NMR-USDT
+2021-08-02 08:54:35.614 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for NMR-USDT
+2021-08-02 08:54:36.948 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '96794d76-f18d-4f2f-9def-36a1e09e537a', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '1.78696816', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '1.78696816', 'commission': '0.13719269', 'proceeds': '68.59634675', 'status': 'CLOSED', 'createdAt': '2021-08-02T13:54:26.2Z', 'updatedAt': '2021-08-02T13:54:26.2Z', 'closedAt': '2021-08-02T13:54:26.2Z'}
+2021-08-02 08:54:36.948 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 1.78696816, 'executed_qty': 1.78696816, 'avg_price': 38.38699999556791, 'commission': 0.13719269, 'executed_time': datetime.datetime(2021, 8, 2, 8, 54, 35, 614542)}
+2021-08-02 08:54:38.251 | DEBUG    | BL.bot.SwT:monitorExit:2826 - Trade exit response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 1.78696816, 'executed_qty': 1.78696816, 'avg_price': 38.38699999556791, 'commission': 0.13719269, 'executed_time': datetime.datetime(2021, 8, 2, 8, 54, 35, 614542)}
+2021-08-02 08:54:38.267 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for NMR-USDT
+2021-08-02 08:54:44.555 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:54:44.557 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:54:45.254 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:54:45.928 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:13.049 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:55:13.051 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:55:14.412 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:55:15.772 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:55:17.407 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:55:17.409 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:18.109 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:18.791 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:34.980 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:55:34.982 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:55:36.329 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:55:37.676 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:55:53.031 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:55:53.033 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:53.715 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:54.387 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:55.094 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:55:55.096 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:55.778 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:56.447 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:57.128 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:55:57.130 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:57.799 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:58.450 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:59.151 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:55:59.151 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:55:59.837 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:00.501 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:01.187 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:01.187 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:01.857 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:02.536 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:03.233 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:03.235 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:03.928 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:04.601 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:05.284 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:05.287 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:05.958 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:06.623 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:07.318 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:07.320 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:08.013 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:08.695 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:09.389 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:09.392 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:10.062 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:10.737 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:11.426 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:11.430 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:12.129 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:12.805 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:13.498 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:13.499 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:14.177 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:14.855 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:15.542 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:15.544 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:16.223 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:16.897 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:17.608 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:17.613 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:18.287 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:18.969 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:19.652 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:19.655 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:20.350 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:21.032 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:21.714 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:21.717 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:22.400 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:23.441 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:24.529 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:24.531 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:25.227 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:25.922 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:49.139 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:56:49.141 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:50.017 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:56:50.689 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:58:41.531 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 08:58:41.533 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:58:42.895 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:58:44.248 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 08:59:56.841 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 08:59:56.841 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:59:57.528 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 08:59:58.223 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:00:12.400 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:00:13.762 | DEBUG    | BL.bot.SwT:monitorExit:2824 - Exiting trade for ZRX-USDT
+2021-08-02 09:00:13.771 | INFO     | BL.bot.SwT:sendTradeOrder:3967 - Creating SELL for ZRX-USDT
+2021-08-02 09:00:15.168 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '4cd9f64d-4fbc-4612-8ba8-26aff69fbfe5', 'marketSymbol': 'ZRX-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '112.58870579', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '112.58870579', 'commission': '0.18262245', 'proceeds': '91.31122717', 'status': 'CLOSED', 'createdAt': '2021-08-02T14:00:04.38Z', 'updatedAt': '2021-08-02T14:00:04.38Z', 'closedAt': '2021-08-02T14:00:04.38Z'}
+2021-08-02 09:00:15.169 | INFO     | BL.bot.SwT:sendTradeOrder:3969 - SELL response for ZRX-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ZRX-USDT', 'requested_qty': 112.58870579, 'executed_qty': 112.58870579, 'avg_price': 0.8110158699249401, 'commission': 0.18262245, 'executed_time': datetime.datetime(2021, 8, 2, 9, 0, 13, 771448)}
+2021-08-02 09:00:16.513 | DEBUG    | BL.bot.SwT:monitorExit:2826 - Trade exit response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ZRX-USDT', 'requested_qty': 112.58870579, 'executed_qty': 112.58870579, 'avg_price': 0.8110158699249401, 'commission': 0.18262245, 'executed_time': datetime.datetime(2021, 8, 2, 9, 0, 13, 771448)}
+2021-08-02 09:00:16.518 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:00:19.267 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:00:21.955 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:00:23.544 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:00:23.546 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:00:24.244 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:00:24.920 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:00:25.739 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:00:27.133 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:00:29.822 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:01:16.073 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:01:16.075 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:01:16.759 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:01:17.456 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:02:41.215 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:02:41.218 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:02:41.904 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:02:42.567 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:00.620 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:03:02.360 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:03:05.073 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:03:09.853 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:03:11.210 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:03:14.308 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:03:29.265 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:03:29.267 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:29.955 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:30.632 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:31.319 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:03:31.322 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:32.008 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:32.700 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:52.550 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:03:52.552 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:53.242 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:53.906 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:54.603 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:03:54.606 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:55.287 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:56.327 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:57.013 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:03:57.013 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:57.692 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:03:58.363 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:04:07.760 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:04:07.762 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:04:08.442 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:04:09.128 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:04:17.866 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:04:17.868 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:04:18.555 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:04:19.239 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:05:13.505 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:05:14.863 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:05:17.560 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:05:19.224 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:05:19.226 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:05:19.917 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:05:20.594 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:10:12.565 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:10:13.935 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:10:16.667 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:10:18.276 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:10:18.279 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:10:18.961 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:10:19.641 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:14:01.855 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:14:03.256 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:14:06.343 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:15:12.766 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:15:14.117 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:15:16.851 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:15:18.831 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:15:18.833 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:15:19.503 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:15:20.193 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:20:13.428 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:20:14.789 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:20:17.865 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:20:19.515 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:20:19.517 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:20:20.219 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:20:20.906 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:20:44.189 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for STRAX-BTC
+2021-08-02 09:20:45.724 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'ae6dbb8d-b636-496b-9275-ab11fe25e92a', 'marketSymbol': 'STRAX-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '2.35525025', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '2.35525025', 'commission': '0.00000023', 'proceeds': '0.00011816', 'status': 'CLOSED', 'createdAt': '2021-08-02T14:20:34.99Z', 'updatedAt': '2021-08-02T14:20:34.99Z', 'closedAt': '2021-08-02T14:20:34.99Z'}
+2021-08-02 09:20:45.724 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for STRAX-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 2.35525025, 'executed_qty': 2.35525025, 'avg_price': 5.016876656737431e-05, 'commission': 2.3e-07, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 44, 189925)}
+2021-08-02 09:20:45.956 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:20:45.956 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:20:46.658 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:20:47.343 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for STRAX-BTC
+2021-08-02 09:20:47.343 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for STRAX-BTC
+2021-08-02 09:20:48.700 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'bd3c0e18-1010-44cd-9cc4-6ecc10bd6eff', 'marketSymbol': 'STRAX-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '183.24782141', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '183.24782141', 'commission': '0.00001839', 'proceeds': '0.00919820', 'status': 'CLOSED', 'createdAt': '2021-08-02T14:20:37.94Z', 'updatedAt': '2021-08-02T14:20:37.94Z', 'closedAt': '2021-08-02T14:20:37.94Z'}
+2021-08-02 09:20:48.700 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for STRAX-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 183.24782141, 'executed_qty': 183.24782141, 'avg_price': 5.019541257966653e-05, 'commission': 1.839e-05, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 47, 343673)}
+2021-08-02 09:20:50.033 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 183.24782141, 'executed_qty': 183.24782141, 'avg_price': 5.019541257966653e-05, 'commission': 1.839e-05, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 47, 343673)}
+2021-08-02 09:20:50.049 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:20:50.718 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for STRAX-BTC
+2021-08-02 09:20:50.720 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for STRAX-BTC
+2021-08-02 09:20:52.043 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'ca226c6a-5891-418d-bfca-3ab3f5f9b52d', 'marketSymbol': 'STRAX-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '156.79398525', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '156.79398525', 'commission': '0.00001588', 'proceeds': '0.00795826', 'status': 'CLOSED', 'createdAt': '2021-08-02T14:20:41.29Z', 'updatedAt': '2021-08-02T14:20:41.29Z', 'closedAt': '2021-08-02T14:20:41.29Z'}
+2021-08-02 09:20:52.043 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for STRAX-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 156.79398525, 'executed_qty': 156.79398525, 'avg_price': 5.07561561581011e-05, 'commission': 1.588e-05, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 50, 720478)}
+2021-08-02 09:20:52.252 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for STRAX-BTC
+2021-08-02 09:20:53.363 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 156.79398525, 'executed_qty': 156.79398525, 'avg_price': 5.07561561581011e-05, 'commission': 1.588e-05, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 50, 720478)}
+2021-08-02 09:20:53.389 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for STRAX-BTC
+2021-08-02 09:20:53.393 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:20:53.779 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'd98a8b19-76da-47bf-b340-87555823b0f0', 'marketSymbol': 'STRAX-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '2.35525025', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '2.35525025', 'commission': '0.00000023', 'proceeds': '0.00011955', 'status': 'CLOSED', 'createdAt': '2021-08-02T14:20:43.03Z', 'updatedAt': '2021-08-02T14:20:43.03Z', 'closedAt': '2021-08-02T14:20:43.03Z'}
+2021-08-02 09:20:53.779 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for STRAX-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 2.35525025, 'executed_qty': 2.35525025, 'avg_price': 5.07589373995396e-05, 'commission': 2.3e-07, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 52, 253680)}
+2021-08-02 09:20:54.064 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for STRAX-BTC
+2021-08-02 09:20:54.064 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for STRAX-BTC
+2021-08-02 09:20:55.120 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for STRAX-BTC
+2021-08-02 09:20:55.785 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '4fbd8a76-97b9-4657-b830-feaf093f0020', 'marketSymbol': 'STRAX-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '133.48266454', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '133.48266454', 'commission': '0.00001367', 'proceeds': '0.00684697', 'status': 'CLOSED', 'createdAt': '2021-08-02T14:20:44.65Z', 'updatedAt': '2021-08-02T14:20:44.65Z', 'closedAt': '2021-08-02T14:20:44.65Z'}
+2021-08-02 09:20:55.785 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for STRAX-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 133.48266454, 'executed_qty': 133.48266454, 'avg_price': 5.1294825613465385e-05, 'commission': 1.367e-05, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 54, 64142)}
+2021-08-02 09:20:56.554 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'f02b9e6a-7373-4a9a-8904-915bb1d46636', 'marketSymbol': 'STRAX-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '2.35525025', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '2.35525025', 'commission': '0.00000024', 'proceeds': '0.00012113', 'status': 'CLOSED', 'createdAt': '2021-08-02T14:20:45.81Z', 'updatedAt': '2021-08-02T14:20:45.81Z', 'closedAt': '2021-08-02T14:20:45.81Z'}
+2021-08-02 09:20:56.554 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for STRAX-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 2.35525025, 'executed_qty': 2.35525025, 'avg_price': 5.142977906487856e-05, 'commission': 2.4e-07, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 55, 124367)}
+2021-08-02 09:20:57.087 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 133.48266454, 'executed_qty': 133.48266454, 'avg_price': 5.1294825613465385e-05, 'commission': 1.367e-05, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 54, 64142)}
+2021-08-02 09:20:57.102 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for STRAX-BTC
+2021-08-02 09:20:57.773 | DEBUG    | BL.bot.SwT:monitorEntry:2540 - Entering trade for STRAX-BTC
+2021-08-02 09:20:57.773 | INFO     | BL.bot.SwT:sendTradeOrder:3960 - Creating BUY for STRAX-BTC
+2021-08-02 09:20:59.177 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '53275692-413a-4885-ba37-856571e3a0a7', 'marketSymbol': 'STRAX-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '113.45458805', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '113.45458805', 'commission': '0.00001166', 'proceeds': '0.00583496', 'status': 'CLOSED', 'createdAt': '2021-08-02T14:20:48.42Z', 'updatedAt': '2021-08-02T14:20:48.42Z', 'closedAt': '2021-08-02T14:20:48.42Z'}
+2021-08-02 09:20:59.178 | INFO     | BL.bot.SwT:sendTradeOrder:3962 - BUY response for STRAX-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 113.45458805, 'executed_qty': 113.45458805, 'avg_price': 5.1429916588551754e-05, 'commission': 1.166e-05, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 57, 773123)}
+2021-08-02 09:21:00.497 | DEBUG    | BL.bot.SwT:monitorEntry:2542 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 113.45458805, 'executed_qty': 113.45458805, 'avg_price': 5.1429916588551754e-05, 'commission': 1.166e-05, 'executed_time': datetime.datetime(2021, 8, 2, 9, 20, 57, 773123)}
+2021-08-02 09:23:16.271 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:23:17.636 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:23:20.710 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:25:12.714 | INFO     | BL.bot.SwT:runTradingAlgorithm:2250 - CPD exit for ZRX-USDT
+2021-08-02 09:25:14.080 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT
+2021-08-02 09:25:17.224 | INFO     | BL.bot.SwT:runTradingAlgorithm:2262 - CPD open opposite trade for ZRX-USDT

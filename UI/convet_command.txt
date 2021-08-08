@@ -1,0 +1,1 @@
+pyuic5 C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\UI\Main.ui -o C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\UI\Main.py

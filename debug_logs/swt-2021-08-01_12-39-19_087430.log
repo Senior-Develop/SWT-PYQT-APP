@@ -1,0 +1,9 @@
+2021-08-01 12:39:19.089 | INFO     | BL.bot.SwT:<module>:73 - Running in test mode: False
+2021-08-01 12:39:19.090 | INFO     | BL.bot.SwT:<module>:74 - Running on selected quote currencies: False
+2021-08-01 12:39:19.091 | INFO     | BL.bot.SwT:<module>:75 - Always generate ST long buy signal: False
+2021-08-01 12:39:19.092 | INFO     | BL.bot.SwT:<module>:76 - Always generate ST short sell signal: False
+2021-08-01 12:39:19.092 | INFO     | BL.bot.SwT:<module>:77 - Use CPD to exit trades: True
+2021-08-01 12:39:19.093 | INFO     | BL.bot.SwT:<module>:79 - CPD exit percent long: -3
+2021-08-01 12:39:19.094 | INFO     | BL.bot.SwT:<module>:80 - CPD exit percent short: 3
+2021-08-01 12:39:19.095 | INFO     | BL.bot.SwT:<module>:81 - CPD price source: ENUM_APPLIED_PRICE.PRICE_CLOSE
+2021-08-01 12:39:19.095 | INFO     | BL.bot.SwT:<module>:82 - CPD open opposite: True

@@ -1,0 +1,6 @@
+2021-08-01 06:05:56.843 | INFO     | BL.bot.SwT:<module>:66 - Running in test mode: False
+2021-08-01 06:05:56.844 | INFO     | BL.bot.SwT:<module>:67 - Running on selected quote currencies: False
+2021-08-01 06:05:56.844 | INFO     | BL.bot.SwT:<module>:68 - Always generate ST long buy signal: False
+2021-08-01 06:05:56.845 | INFO     | BL.bot.SwT:<module>:69 - Always generate ST short sell signal: False
+2021-08-01 06:08:58.662 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3646 - ST signal
+2021-08-01 06:08:58.662 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2132 - symbol: MONA-BTC conditions long: [True, True, True, True, True, True, True]

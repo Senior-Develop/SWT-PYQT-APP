@@ -1,0 +1,341 @@
+2021-08-05 11:07:11.400 | INFO     | BL.bot.SwT:<module>:75 - Running in test mode: False
+2021-08-05 11:07:11.401 | INFO     | BL.bot.SwT:<module>:76 - Running on selected quote currencies: False
+2021-08-05 11:07:11.401 | INFO     | BL.bot.SwT:<module>:77 - Always generate ST long buy signal: False
+2021-08-05 11:07:11.402 | INFO     | BL.bot.SwT:<module>:78 - Always generate ST short sell signal: False
+2021-08-05 11:07:11.402 | INFO     | BL.bot.SwT:<module>:79 - Filter markets by volume and price: True
+2021-08-05 11:07:11.403 | INFO     | BL.bot.SwT:<module>:80 - Stop %: 2
+2021-08-05 11:09:29.851 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking NMR-USDT.
+2021-08-05 11:09:29.893 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking NMR-USDT.
+2021-08-05 11:09:32.734 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking NMR-BTC.
+2021-08-05 11:09:32.740 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking NMR-BTC.
+2021-08-05 11:09:34.756 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking NMR-USDT.
+2021-08-05 11:09:34.762 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking NMR-USDT.
+2021-08-05 11:10:00.721 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAXP-USDT.
+2021-08-05 11:10:00.727 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAXP-USDT.
+2021-08-05 11:10:02.701 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAXP-USDT.
+2021-08-05 11:10:02.707 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAXP-USDT.
+2021-08-05 11:10:06.355 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking BAL-USDT.
+2021-08-05 11:10:06.361 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking BAL-USDT.
+2021-08-05 11:10:06.362 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAXP-USDT.
+2021-08-05 11:10:06.367 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAXP-USDT.
+2021-08-05 11:10:12.511 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-BTC.
+2021-08-05 11:10:12.517 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-BTC.
+2021-08-05 11:10:12.518 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking STRAX-BTC.
+2021-08-05 11:10:12.523 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking STRAX-BTC.
+2021-08-05 11:10:12.524 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:10:12.530 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ADA-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:10:12.535 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:10:12.557 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-USDT.
+2021-08-05 11:10:12.564 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-USDT.
+2021-08-05 11:10:12.573 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ENJ-BTC.
+2021-08-05 11:10:12.580 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ENJ-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:10:12.582 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ENJ-BTC.
+2021-08-05 11:10:12.583 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking LTC-USDT.
+2021-08-05 11:10:12.588 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking LTC-USDT.
+2021-08-05 11:10:12.589 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking IOTA-BTC.
+2021-08-05 11:10:12.595 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking IOTA-BTC.
+2021-08-05 11:10:12.598 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAXP-USDT.
+2021-08-05 11:10:12.604 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAXP-USDT.
+2021-08-05 11:10:12.605 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:10:12.611 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:10:12.612 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking TUSD-BTC.
+2021-08-05 11:10:12.617 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking TUSD-BTC.
+2021-08-05 11:10:12.619 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking GAME-USDT.
+2021-08-05 11:10:12.624 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking GAME-USDT.
+2021-08-05 11:10:12.654 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ZRX-USDT.
+2021-08-05 11:10:12.666 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ZRX-USDT.
+2021-08-05 11:10:12.668 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDC-BTC.
+2021-08-05 11:10:12.678 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDC-BTC.
+2021-08-05 11:10:12.680 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking SOLVE-BTC.
+2021-08-05 11:10:12.687 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking SOLVE-BTC.
+2021-08-05 11:10:12.706 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking REN-BTC.
+2021-08-05 11:10:12.713 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking REN-BTC.
+2021-08-05 11:10:12.754 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XEM-USDT.
+2021-08-05 11:10:12.760 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XEM-USDT.
+2021-08-05 11:10:12.761 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking SOLVE-USDT.
+2021-08-05 11:10:12.767 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking SOLVE-USDT.
+2021-08-05 11:10:12.828 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking NMR-USDT.
+2021-08-05 11:10:12.834 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking NMR-USDT.
+2021-08-05 11:10:12.835 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CELO-BTC.
+2021-08-05 11:10:12.840 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CELO-BTC.
+2021-08-05 11:10:12.841 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking MATIC-BTC.
+2021-08-05 11:10:12.846 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking MATIC-BTC.
+2021-08-05 11:10:12.847 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking BAT-USDT.
+2021-08-05 11:10:12.852 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking BAT-USDT.
+2021-08-05 11:10:12.862 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-USDT.
+2021-08-05 11:10:12.868 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for XLM-USDT: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:10:12.871 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-USDT.
+2021-08-05 11:10:12.872 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-BTC.
+2021-08-05 11:10:12.878 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-BTC.
+2021-08-05 11:10:12.879 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking MATIC-USDT.
+2021-08-05 11:10:12.885 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking MATIC-USDT.
+2021-08-05 11:10:12.885 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking NMR-BTC.
+2021-08-05 11:10:12.891 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking NMR-BTC.
+2021-08-05 11:10:12.892 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking PINK-BTC.
+2021-08-05 11:10:12.897 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking PINK-BTC.
+2021-08-05 11:10:12.899 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XTZ-USDT.
+2021-08-05 11:10:12.905 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XTZ-USDT.
+2021-08-05 11:10:12.907 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAVES-USDT.
+2021-08-05 11:10:12.912 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAVES-USDT.
+2021-08-05 11:10:12.913 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ARK-BTC.
+2021-08-05 11:10:12.918 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ARK-BTC.
+2021-08-05 11:10:12.919 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking NAV-BTC.
+2021-08-05 11:10:12.926 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking NAV-BTC.
+2021-08-05 11:10:12.927 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DCR-USDT.
+2021-08-05 11:10:12.934 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DCR-USDT.
+2021-08-05 11:10:12.936 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ONG-BTC.
+2021-08-05 11:10:12.942 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ONG-BTC.
+2021-08-05 11:10:12.943 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CELO-USDT.
+2021-08-05 11:10:12.949 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CELO-USDT.
+2021-08-05 11:10:12.951 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking FIL-USDT.
+2021-08-05 11:10:12.957 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking FIL-USDT.
+2021-08-05 11:10:12.961 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDC-USDT.
+2021-08-05 11:10:12.967 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDC-USDT.
+2021-08-05 11:10:12.968 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking GBYTE-BTC.
+2021-08-05 11:10:12.973 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking GBYTE-BTC.
+2021-08-05 11:10:12.974 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking SBD-BTC.
+2021-08-05 11:10:12.979 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking SBD-BTC.
+2021-08-05 11:10:12.981 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DAI-BTC.
+2021-08-05 11:10:12.987 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DAI-BTC.
+2021-08-05 11:10:12.991 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking PPC-BTC.
+2021-08-05 11:10:12.997 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking PPC-BTC.
+2021-08-05 11:10:12.998 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAVES-BTC.
+2021-08-05 11:10:13.003 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAVES-BTC.
+2021-08-05 11:10:13.004 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking BAL-USDT.
+2021-08-05 11:10:13.009 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking BAL-USDT.
+2021-08-05 11:10:13.011 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking MONA-BTC.
+2021-08-05 11:10:13.017 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking MONA-BTC.
+2021-08-05 11:10:13.021 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CVC-BTC.
+2021-08-05 11:10:13.027 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CVC-BTC.
+2021-08-05 11:10:13.028 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDN-BTC.
+2021-08-05 11:10:13.034 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDN-BTC.
+2021-08-05 11:10:13.035 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDN-USDT.
+2021-08-05 11:10:13.040 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDN-USDT.
+2021-08-05 11:10:13.041 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking TUSD-USDT.
+2021-08-05 11:10:13.047 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking TUSD-USDT.
+2021-08-05 11:10:13.051 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking LRC-BTC.
+2021-08-05 11:10:13.056 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking LRC-BTC.
+2021-08-05 11:10:13.162 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDS-BTC.
+2021-08-05 11:10:13.168 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDS-BTC.
+2021-08-05 11:10:13.944 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-BTC.
+2021-08-05 11:10:13.950 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-BTC.
+2021-08-05 11:10:16.966 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:10:16.972 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:10:18.015 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:10:18.021 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:10:26.093 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking TUSD-BTC.
+2021-08-05 11:10:26.099 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking TUSD-BTC.
+2021-08-05 11:10:29.152 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-USDT.
+2021-08-05 11:10:29.158 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-USDT.
+2021-08-05 11:10:34.145 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-USDT.
+2021-08-05 11:10:34.152 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for XLM-USDT: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:10:34.154 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-USDT.
+2021-08-05 11:10:44.364 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking MATIC-BTC.
+2021-08-05 11:10:44.369 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking MATIC-BTC.
+2021-08-05 11:10:45.243 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:10:45.250 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ADA-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:10:45.252 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:10:46.458 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAXP-USDT.
+2021-08-05 11:10:46.464 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAXP-USDT.
+2021-08-05 11:10:49.288 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAVES-BTC.
+2021-08-05 11:10:49.294 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAVES-BTC.
+2021-08-05 11:10:51.470 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XTZ-USDT.
+2021-08-05 11:10:51.476 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XTZ-USDT.
+2021-08-05 11:10:54.309 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:10:54.315 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ADA-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:10:54.318 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:10:57.383 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:10:57.389 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ADA-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:10:57.393 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:11:10.845 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking STRAX-BTC.
+2021-08-05 11:11:10.855 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking STRAX-BTC.
+2021-08-05 11:11:16.205 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:11:16.212 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ADA-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:11:16.214 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:11:33.146 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDC-BTC.
+2021-08-05 11:11:33.153 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDC-BTC.
+2021-08-05 11:11:44.181 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking TUSD-BTC.
+2021-08-05 11:11:44.186 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking TUSD-BTC.
+2021-08-05 11:11:45.105 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:11:45.111 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ADA-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:11:45.113 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:18:40.685 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-BTC.
+2021-08-05 11:18:40.692 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-BTC.
+2021-08-05 11:19:05.910 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking GAME-USDT.
+2021-08-05 11:19:05.915 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking GAME-USDT.
+2021-08-05 11:19:07.978 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:19:07.984 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:19:08.874 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:19:08.880 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:19:09.927 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:19:09.933 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:19:12.228 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:19:12.234 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:19:17.249 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking GBYTE-BTC.
+2021-08-05 11:19:17.255 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking GBYTE-BTC.
+2021-08-05 11:19:36.265 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:19:36.271 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:19:46.260 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:19:46.266 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:19:48.933 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking BAT-USDT.
+2021-08-05 11:19:48.939 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking BAT-USDT.
+2021-08-05 11:19:53.990 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAXP-USDT.
+2021-08-05 11:19:53.996 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAXP-USDT.
+2021-08-05 11:19:58.966 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XEM-USDT.
+2021-08-05 11:19:58.972 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XEM-USDT.
+2021-08-05 11:20:00.464 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:00.470 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:01.158 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:01.163 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:02.043 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:02.049 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:03.090 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:03.097 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:04.316 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ENJ-BTC.
+2021-08-05 11:20:04.322 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ENJ-BTC.
+2021-08-05 11:20:04.323 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:04.328 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:05.499 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:05.505 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:06.487 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:06.492 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:08.326 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:08.332 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:08.333 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDC-BTC.
+2021-08-05 11:20:08.338 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDC-BTC.
+2021-08-05 11:20:09.260 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:09.266 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:10.566 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:20:10.572 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:20:10.608 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-USDT.
+2021-08-05 11:20:10.614 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-USDT.
+2021-08-05 11:20:10.614 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ENJ-BTC.
+2021-08-05 11:20:10.620 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ENJ-BTC.
+2021-08-05 11:20:10.622 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-BTC.
+2021-08-05 11:20:10.627 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-BTC.
+2021-08-05 11:20:10.629 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking IOTA-BTC.
+2021-08-05 11:20:10.634 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking IOTA-BTC.
+2021-08-05 11:20:10.635 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking LTC-USDT.
+2021-08-05 11:20:10.642 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking LTC-USDT.
+2021-08-05 11:20:10.643 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking TUSD-BTC.
+2021-08-05 11:20:10.648 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking TUSD-BTC.
+2021-08-05 11:20:10.650 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAXP-USDT.
+2021-08-05 11:20:10.655 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAXP-USDT.
+2021-08-05 11:20:10.656 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:20:10.662 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:20:10.666 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ZRX-USDT.
+2021-08-05 11:20:10.672 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ZRX-USDT.
+2021-08-05 11:20:10.673 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking GAME-USDT.
+2021-08-05 11:20:10.678 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking GAME-USDT.
+2021-08-05 11:20:10.679 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDC-BTC.
+2021-08-05 11:20:10.685 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDC-BTC.
+2021-08-05 11:20:10.686 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking SOLVE-BTC.
+2021-08-05 11:20:10.691 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking SOLVE-BTC.
+2021-08-05 11:20:10.692 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking REN-BTC.
+2021-08-05 11:20:10.699 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking REN-BTC.
+2021-08-05 11:20:10.700 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XEM-USDT.
+2021-08-05 11:20:10.706 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XEM-USDT.
+2021-08-05 11:20:10.707 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking NMR-USDT.
+2021-08-05 11:20:10.712 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking NMR-USDT.
+2021-08-05 11:20:10.713 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CELO-BTC.
+2021-08-05 11:20:10.720 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CELO-BTC.
+2021-08-05 11:20:10.721 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking MATIC-BTC.
+2021-08-05 11:20:10.727 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking MATIC-BTC.
+2021-08-05 11:20:10.728 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking BAT-USDT.
+2021-08-05 11:20:10.734 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking BAT-USDT.
+2021-08-05 11:20:10.735 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-USDT.
+2021-08-05 11:20:10.741 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-USDT.
+2021-08-05 11:20:10.742 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-BTC.
+2021-08-05 11:20:10.748 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-BTC.
+2021-08-05 11:20:10.749 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking SOLVE-USDT.
+2021-08-05 11:20:10.754 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking SOLVE-USDT.
+2021-08-05 11:20:10.756 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking MATIC-USDT.
+2021-08-05 11:20:10.761 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking MATIC-USDT.
+2021-08-05 11:20:10.762 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking NMR-BTC.
+2021-08-05 11:20:10.768 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking NMR-BTC.
+2021-08-05 11:20:10.768 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking PINK-BTC.
+2021-08-05 11:20:10.774 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking PINK-BTC.
+2021-08-05 11:20:10.777 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking NAV-BTC.
+2021-08-05 11:20:10.784 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking NAV-BTC.
+2021-08-05 11:20:10.786 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XTZ-USDT.
+2021-08-05 11:20:10.793 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XTZ-USDT.
+2021-08-05 11:20:10.794 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAVES-USDT.
+2021-08-05 11:20:10.801 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAVES-USDT.
+2021-08-05 11:20:10.802 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CELO-USDT.
+2021-08-05 11:20:10.810 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CELO-USDT.
+2021-08-05 11:20:10.811 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DCR-USDT.
+2021-08-05 11:20:10.816 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DCR-USDT.
+2021-08-05 11:20:10.817 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking FIL-USDT.
+2021-08-05 11:20:10.823 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking FIL-USDT.
+2021-08-05 11:20:10.824 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ARK-BTC.
+2021-08-05 11:20:10.831 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ARK-BTC.
+2021-08-05 11:20:10.838 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ONG-BTC.
+2021-08-05 11:20:10.844 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ONG-BTC.
+2021-08-05 11:20:10.845 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking SBD-BTC.
+2021-08-05 11:20:10.850 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking SBD-BTC.
+2021-08-05 11:20:10.852 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking STRAX-BTC.
+2021-08-05 11:20:10.857 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking STRAX-BTC.
+2021-08-05 11:20:10.858 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDC-USDT.
+2021-08-05 11:20:10.864 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDC-USDT.
+2021-08-05 11:20:10.865 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking GBYTE-BTC.
+2021-08-05 11:20:10.873 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking GBYTE-BTC.
+2021-08-05 11:20:10.875 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DAI-BTC.
+2021-08-05 11:20:10.880 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DAI-BTC.
+2021-08-05 11:20:10.881 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking PPC-BTC.
+2021-08-05 11:20:10.886 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking PPC-BTC.
+2021-08-05 11:20:10.906 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAVES-BTC.
+2021-08-05 11:20:10.911 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAVES-BTC.
+2021-08-05 11:20:10.914 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking MONA-BTC.
+2021-08-05 11:20:10.920 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking MONA-BTC.
+2021-08-05 11:20:10.921 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking BAL-USDT.
+2021-08-05 11:20:10.926 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking BAL-USDT.
+2021-08-05 11:20:10.927 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CVC-BTC.
+2021-08-05 11:20:10.935 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CVC-BTC.
+2021-08-05 11:20:10.963 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDN-BTC.
+2021-08-05 11:20:10.969 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDN-BTC.
+2021-08-05 11:20:10.970 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDN-USDT.
+2021-08-05 11:20:10.975 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDN-USDT.
+2021-08-05 11:20:10.976 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking LRC-BTC.
+2021-08-05 11:20:10.982 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking LRC-BTC.
+2021-08-05 11:20:11.006 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking TUSD-USDT.
+2021-08-05 11:20:11.012 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking TUSD-USDT.
+2021-08-05 11:20:11.606 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDS-BTC.
+2021-08-05 11:20:11.611 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDS-BTC.
+2021-08-05 11:20:32.463 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking WAXP-USDT.
+2021-08-05 11:20:32.469 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking WAXP-USDT.

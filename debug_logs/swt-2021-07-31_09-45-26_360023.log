@@ -1,0 +1,12 @@
+2021-07-31 09:45:26.617 | INFO     | BL.bot.SwT:<module>:66 - Running in test mode: False
+2021-07-31 09:45:26.618 | INFO     | BL.bot.SwT:<module>:67 - Running on selected quote currencies: False
+2021-07-31 09:45:26.618 | INFO     | BL.bot.SwT:<module>:68 - Always generate ST long buy signal: False
+2021-07-31 09:45:26.619 | INFO     | BL.bot.SwT:<module>:69 - Always generate ST short sell signal: False
+2021-07-31 09:48:16.082 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 09:48:16.084 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 09:48:17.223 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MONA-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 09:48:17.230 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 09:48:17.231 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MONA-BTC, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 09:48:17.234 | DEBUG    | BL.bot.SwT:monitorEntry:2458 - Max concurrent trades reached.
+2021-07-31 09:49:25.214 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 09:49:25.216 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.

@@ -1,0 +1,91 @@
+2021-08-05 11:04:29.052 | INFO     | BL.bot.SwT:<module>:75 - Running in test mode: False
+2021-08-05 11:04:29.053 | INFO     | BL.bot.SwT:<module>:76 - Running on selected quote currencies: False
+2021-08-05 11:04:29.053 | INFO     | BL.bot.SwT:<module>:77 - Always generate ST long buy signal: False
+2021-08-05 11:04:29.054 | INFO     | BL.bot.SwT:<module>:78 - Always generate ST short sell signal: False
+2021-08-05 11:04:29.055 | INFO     | BL.bot.SwT:<module>:79 - Filter markets by volume and price: True
+2021-08-05 11:04:29.055 | INFO     | BL.bot.SwT:<module>:80 - Stop %: 2
+2021-08-05 11:06:05.221 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ZRX-USDT.
+2021-08-05 11:06:05.276 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ZRX-USDT.
+2021-08-05 11:06:06.198 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-USDT.
+2021-08-05 11:06:06.203 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-USDT.
+2021-08-05 11:06:07.676 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:06:07.693 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ADA-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:06:07.703 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:06:07.704 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XEM-USDT.
+2021-08-05 11:06:07.710 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XEM-USDT.
+2021-08-05 11:06:07.711 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ENJ-BTC.
+2021-08-05 11:06:07.716 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ENJ-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:06:07.721 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ENJ-BTC.
+2021-08-05 11:06:07.722 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-BTC.
+2021-08-05 11:06:07.728 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-BTC.
+2021-08-05 11:06:07.729 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking MATIC-USDT.
+2021-08-05 11:06:07.736 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking MATIC-USDT.
+2021-08-05 11:06:08.579 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-BTC.
+2021-08-05 11:06:08.584 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-BTC.
+2021-08-05 11:06:08.585 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ENJ-BTC.
+2021-08-05 11:06:08.591 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ENJ-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:06:08.593 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ENJ-BTC.
+2021-08-05 11:06:08.594 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-USDT.
+2021-08-05 11:06:08.602 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for XLM-USDT: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:06:08.604 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-USDT.
+2021-08-05 11:06:09.256 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking IOTA-BTC.
+2021-08-05 11:06:09.262 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking IOTA-BTC.
+2021-08-05 11:06:09.263 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking USDC-BTC.
+2021-08-05 11:06:09.268 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking USDC-BTC.
+2021-08-05 11:06:11.394 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CELO-BTC.
+2021-08-05 11:06:11.399 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CELO-BTC.
+2021-08-05 11:06:15.106 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking DOGE-BTC.
+2021-08-05 11:06:15.112 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking DOGE-BTC.
+2021-08-05 11:06:15.116 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking TUSD-BTC.
+2021-08-05 11:06:15.121 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking TUSD-BTC.
+2021-08-05 11:06:19.376 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-05 11:06:19.384 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for ADA-BTC: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:06:19.386 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.
+2021-08-05 11:06:37.487 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-BTC.
+2021-08-05 11:06:37.492 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-BTC.
+2021-08-05 11:06:37.507 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-USDT.
+2021-08-05 11:06:37.513 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for XLM-USDT: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:06:37.515 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-USDT.
+2021-08-05 11:06:42.732 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking IOTA-BTC.
+2021-08-05 11:06:42.737 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking IOTA-BTC.
+2021-08-05 11:06:59.661 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ZRX-USDT.
+2021-08-05 11:06:59.668 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ZRX-USDT.
+2021-08-05 11:07:00.774 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-BTC.
+2021-08-05 11:07:00.779 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-BTC.
+2021-08-05 11:07:00.780 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ZRX-USDT.
+2021-08-05 11:07:00.785 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ZRX-USDT.
+2021-08-05 11:07:01.629 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking XLM-USDT.
+2021-08-05 11:07:01.636 | ERROR    | BL.bot.SwT:monitorExit:3015 - While exiting trade for XLM-USDT: Traceback (most recent call last):
+  File "C:\Users\Trader\Documents\SwT_Trading\Source\Original_SWT_Source-current\BL\bot\SwT.py", line 2780, in monitorExit
+    trade.StopLoss = trade.EntryPrice - trade.EntryPrice  * (STOP_PERCENT / 100)
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+
+2021-08-05 11:07:01.639 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking XLM-USDT.
+2021-08-05 11:07:01.819 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking LTC-USDT.
+2021-08-05 11:07:01.826 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking LTC-USDT.
+2021-08-05 11:07:03.766 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking LTC-USDT.
+2021-08-05 11:07:03.772 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking LTC-USDT.

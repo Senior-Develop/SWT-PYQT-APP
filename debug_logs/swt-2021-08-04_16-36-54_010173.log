@@ -1,0 +1,14 @@
+2021-08-04 16:36:54.011 | INFO     | BL.bot.SwT:<module>:75 - Running in test mode: False
+2021-08-04 16:36:54.012 | INFO     | BL.bot.SwT:<module>:76 - Running on selected quote currencies: False
+2021-08-04 16:36:54.012 | INFO     | BL.bot.SwT:<module>:77 - Always generate ST long buy signal: False
+2021-08-04 16:36:54.013 | INFO     | BL.bot.SwT:<module>:78 - Always generate ST short sell signal: False
+2021-08-04 16:36:54.014 | INFO     | BL.bot.SwT:<module>:79 - Filter markets by volume and price: True
+2021-08-04 16:36:54.014 | INFO     | BL.bot.SwT:<module>:80 - Stop %: 2
+2021-08-04 16:44:25.972 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CELO-BTC.
+2021-08-04 16:44:26.028 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CELO-BTC.
+2021-08-04 16:44:37.239 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CELO-BTC.
+2021-08-04 16:44:37.244 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CELO-BTC.
+2021-08-04 16:44:45.276 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking CELO-BTC.
+2021-08-04 16:44:45.282 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking CELO-BTC.
+2021-08-04 16:44:58.468 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2169 - Locking ADA-BTC.
+2021-08-04 16:44:58.474 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2270 - Unlocking ADA-BTC.

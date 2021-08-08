@@ -1,0 +1,219 @@
+2021-08-01 09:57:38.910 | INFO     | BL.bot.SwT:<module>:66 - Running in test mode: False
+2021-08-01 09:57:38.911 | INFO     | BL.bot.SwT:<module>:67 - Running on selected quote currencies: False
+2021-08-01 09:57:38.912 | INFO     | BL.bot.SwT:<module>:68 - Always generate ST long buy signal: False
+2021-08-01 09:57:38.913 | INFO     | BL.bot.SwT:<module>:69 - Always generate ST short sell signal: False
+2021-08-01 10:25:08.851 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3646 - ST signal
+2021-08-01 10:25:08.852 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2132 - symbol: XTZ-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-01 10:25:08.867 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3646 - ST signal
+2021-08-01 10:25:08.868 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2132 - symbol: XTZ-USDT conditions long: [True, True, True, True, True, True, True]
+2021-08-01 10:25:09.659 | DEBUG    | BL.bot.SwT:monitorEntry:2486 - Entering trade for XTZ-USDT
+2021-08-01 10:25:09.670 | INFO     | BL.bot.SwT:sendTradeOrder:3906 - Creating BUY for XTZ-USDT
+2021-08-01 10:25:10.031 | DEBUG    | BL.bot.SwT:monitorEntry:2486 - Entering trade for XTZ-USDT
+2021-08-01 10:25:10.034 | INFO     | BL.bot.SwT:sendTradeOrder:3906 - Creating BUY for XTZ-USDT
+2021-08-01 10:25:11.183 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'a908f4f4-0ba2-421e-818f-72ffedf901f7', 'marketSymbol': 'XTZ-USDT', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '47.73567481', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '47.73567481', 'commission': '0.30027278', 'proceeds': '150.13639083', 'status': 'CLOSED', 'createdAt': '2021-08-01T15:25:00.06Z', 'updatedAt': '2021-08-01T15:25:00.06Z', 'closedAt': '2021-08-01T15:25:00.06Z'}
+2021-08-01 10:25:11.184 | INFO     | BL.bot.SwT:sendTradeOrder:3908 - BUY response for XTZ-USDT: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.73567481, 'executed_qty': 47.73567481, 'avg_price': 3.1451611698709745, 'commission': 0.30027278, 'executed_time': datetime.datetime(2021, 8, 1, 10, 25, 9, 670248)}
+2021-08-01 10:25:11.719 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '4b2fef8c-d2c7-4723-b9a0-f26c89b5f618', 'marketSymbol': 'XTZ-USDT', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '47.73567481', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '18.24618282', 'commission': '0.11464162', 'proceeds': '57.32080809', 'status': 'CLOSED', 'createdAt': '2021-08-01T15:25:00.27Z', 'updatedAt': '2021-08-01T15:25:00.27Z', 'closedAt': '2021-08-01T15:25:00.27Z'}
+2021-08-01 10:25:11.720 | INFO     | BL.bot.SwT:sendTradeOrder:3908 - BUY response for XTZ-USDT: {'status': 'CLOSED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.73567481, 'executed_qty': 18.24618282, 'avg_price': 3.1415232794428394, 'commission': 0.11464162, 'executed_time': datetime.datetime(2021, 8, 1, 10, 25, 10, 48237)}
+2021-08-01 10:25:11.721 | WARNING  | BL.bot.SwT:sendTradeOrder:3928 - Response status is not FILLED: {'status': 'CLOSED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.73567481, 'executed_qty': 18.24618282, 'avg_price': 3.1415232794428394, 'commission': 0.11464162, 'executed_time': datetime.datetime(2021, 8, 1, 10, 25, 10, 48237)}
+2021-08-01 10:25:11.722 | DEBUG    | BL.bot.SwT:monitorEntry:2488 - Trade entry response: {'status': 'CLOSED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.73567481, 'executed_qty': 18.24618282, 'avg_price': 3.1415232794428394, 'commission': 0.11464162, 'executed_time': datetime.datetime(2021, 8, 1, 10, 25, 10, 48237)}
+2021-08-01 10:25:11.724 | WARNING  | BL.bot.SwT:monitorEntry:2501 - Entry order for XTZ-USDT was not filled.
+2021-08-01 10:25:11.726 | WARNING  | BL.bot.SwT:monitorEntry:2506 - Entering a trade for XTZ-USDT failed.
+2021-08-01 10:25:12.505 | DEBUG    | BL.bot.SwT:monitorEntry:2488 - Trade entry response: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.73567481, 'executed_qty': 47.73567481, 'avg_price': 3.1451611698709745, 'commission': 0.30027278, 'executed_time': datetime.datetime(2021, 8, 1, 10, 25, 9, 670248)}
+2021-08-01 11:02:14.473 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ZRX-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:02:14.481 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ZRX-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:02:14.570 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ZRX-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:02:14.577 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ZRX-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:06:42.474 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MATIC-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:06:42.481 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MATIC-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:06:42.483 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MATIC-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:06:42.492 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MATIC-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:07:28.191 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MATIC-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:07:28.198 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MATIC-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:07:28.210 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MATIC-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:07:28.216 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MATIC-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:16:04.276 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAVES-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:16:04.286 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAVES-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:16:04.288 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAVES-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:16:04.313 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAVES-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:16:21.251 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAVES-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:16:21.257 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAVES-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:16:21.357 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAVES-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:16:21.364 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAVES-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:16:42.336 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAVES-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:16:42.346 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAVES-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:16:42.360 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAVES-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:16:42.368 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAVES-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:16:57.313 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAVES-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:16:57.313 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAVES-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:16:57.328 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAVES-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:16:57.328 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAVES-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:26.707 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: NMR-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:26.714 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: NMR-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:17:26.813 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: NMR-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:26.820 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: NMR-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:17:31.902 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:31.908 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:31.925 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:31.933 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:33.249 | DEBUG    | BL.bot.SwT:monitorEntry:2486 - Entering trade for ENJ-BTC
+2021-08-01 11:17:33.252 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for ENJ-BTC
+2021-08-01 11:17:33.648 | DEBUG    | BL.bot.SwT:monitorEntry:2486 - Entering trade for ENJ-BTC
+2021-08-01 11:17:33.650 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for ENJ-BTC
+2021-08-01 11:17:34.346 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for ENJ-BTC: {'status': "'NoneType' object is not subscriptable", 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ENJ-BTC', 'requested_qty': 44.78514445, 'executed_qty': 0, 'avg_price': 0.0, 'commission': 0.0, 'executed_time': datetime.datetime(2021, 8, 1, 11, 17, 33, 662055)}
+2021-08-01 11:17:34.347 | WARNING  | BL.bot.SwT:sendTradeOrder:3928 - Response status is not FILLED: {'status': "'NoneType' object is not subscriptable", 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ENJ-BTC', 'requested_qty': 44.78514445, 'executed_qty': 0, 'avg_price': 0.0, 'commission': 0.0, 'executed_time': datetime.datetime(2021, 8, 1, 11, 17, 33, 662055)}
+2021-08-01 11:17:34.348 | DEBUG    | BL.bot.SwT:monitorEntry:2488 - Trade entry response: {'status': "'NoneType' object is not subscriptable", 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ENJ-BTC', 'requested_qty': 44.78514445, 'executed_qty': 0, 'avg_price': 0.0, 'commission': 0.0, 'executed_time': datetime.datetime(2021, 8, 1, 11, 17, 33, 662055)}
+2021-08-01 11:17:34.349 | WARNING  | BL.bot.SwT:monitorEntry:2501 - Entry order for ENJ-BTC was not filled.
+2021-08-01 11:17:34.351 | WARNING  | BL.bot.SwT:monitorEntry:2506 - Entering a trade for ENJ-BTC failed.
+2021-08-01 11:17:34.354 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:34.372 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:34.594 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'f1766d98-9130-4cf1-93fa-16bc52cbe855', 'marketSymbol': 'ENJ-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '44.78514445', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '44.78514445', 'commission': '0.00000304', 'proceeds': '0.00152602', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:17:23.49Z', 'updatedAt': '2021-08-01T16:17:23.49Z', 'closedAt': '2021-08-01T16:17:23.49Z'}
+2021-08-01 11:17:34.595 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for ENJ-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ENJ-BTC', 'requested_qty': 44.78514445, 'executed_qty': 44.78514445, 'avg_price': 3.407424534945315e-05, 'commission': 3.04e-06, 'executed_time': datetime.datetime(2021, 8, 1, 11, 17, 33, 262125)}
+2021-08-01 11:17:35.746 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:35.760 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:35.920 | DEBUG    | BL.bot.SwT:monitorEntry:2488 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'ENJ-BTC', 'requested_qty': 44.78514445, 'executed_qty': 44.78514445, 'avg_price': 3.407424534945315e-05, 'commission': 3.04e-06, 'executed_time': datetime.datetime(2021, 8, 1, 11, 17, 33, 262125)}
+2021-08-01 11:17:35.927 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:35.934 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:35.938 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:35.945 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:35.964 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:35.973 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:36.142 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:36.149 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:37.002 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:37.008 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:37.152 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:37.160 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:37.176 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:37.183 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:37.203 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:37.210 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:38.388 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:38.394 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:38.453 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:38.459 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:39.089 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:39.090 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:39.098 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:39.098 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:44.398 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:44.398 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:44.414 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:44.414 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:45.015 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:45.031 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:45.031 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:45.031 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:46.212 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:46.217 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:46.221 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:46.225 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:49.526 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:49.526 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:49.541 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:49.541 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:54.801 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:54.801 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:17:54.823 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:17:54.855 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:12.493 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:12.499 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:12.502 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:12.507 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:14.644 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:14.646 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:14.653 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:14.654 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:29.783 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:29.790 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:29.806 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:29.813 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:39.989 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:39.995 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:40.065 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:40.072 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:41.987 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:41.992 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:41.997 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:42.000 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:54.444 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:54.460 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:54.460 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:54.476 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:57.302 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:57.305 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:18:57.336 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DOGE-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:18:57.352 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DOGE-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:22.256 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:22.258 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:22.266 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:22.266 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:35.679 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:35.695 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:35.695 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:35.706 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:36.941 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:36.941 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:36.941 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:36.941 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:40.698 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:40.698 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:40.733 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:40.741 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, short_sell_trade_count: 1, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:57.368 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DCR-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:57.368 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DCR-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:19:57.368 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DCR-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:19:57.368 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DCR-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:20:02.965 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DCR-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:20:02.965 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: DCR-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:20:02.965 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DCR-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:20:02.965 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: DCR-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:22:53.788 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: LRC-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:22:53.803 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: LRC-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:22:53.803 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: LRC-BTC conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:22:53.819 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: LRC-BTC, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 0, fBuyTradeCount: 0
+2021-08-01 11:32:06.449 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: XTZ-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:32:06.457 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: XTZ-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:32:06.459 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: XTZ-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:32:06.469 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: XTZ-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:32:12.469 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: XTZ-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:32:12.475 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: XTZ-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:32:12.506 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: XTZ-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:32:12.516 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: XTZ-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:32:20.289 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: XTZ-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:32:20.295 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: XTZ-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:32:20.299 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: XTZ-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:32:20.303 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: XTZ-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:32:56.618 | INFO     | BL.bot.SwT:sendTradeOrder:3906 - Creating BUY for ENJ-BTC
+2021-08-01 11:32:58.438 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'd96ed683-88f0-48a1-9d4a-09bb08352213', 'marketSymbol': 'ENJ-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '44.78514445', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '44.78514445', 'commission': '0.00000306', 'proceeds': '0.00153254', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:32:47.29Z', 'updatedAt': '2021-08-01T16:32:47.29Z', 'closedAt': '2021-08-01T16:32:47.29Z'}
+2021-08-01 11:32:58.438 | INFO     | BL.bot.SwT:sendTradeOrder:3908 - BUY response for ENJ-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'ENJ-BTC', 'requested_qty': 44.78514445, 'executed_qty': 44.78514445, 'avg_price': 3.421982933896733e-05, 'commission': 3.06e-06, 'executed_time': datetime.datetime(2021, 8, 1, 11, 32, 56, 618834)}
+2021-08-01 11:33:01.274 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for XTZ-USDT
+2021-08-01 11:33:02.635 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: XTZ-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:33:02.635 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: XTZ-USDT conditions short: [True, True, True, True, True, True, True]
+2021-08-01 11:33:02.635 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: XTZ-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:33:02.635 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: XTZ-USDT, S_TradingEnabled: 1, short_sell_trade_count: 0, long_buy_trade_count: 1, fBuyTradeCount: 0
+2021-08-01 11:33:03.288 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '4acac9a5-b169-4385-8e4e-91d408135160', 'marketSymbol': 'XTZ-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '47.73567481', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '47.73567481', 'commission': '0.29143492', 'proceeds': '145.71746313', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:32:51.5Z', 'updatedAt': '2021-08-01T16:32:51.5Z', 'closedAt': '2021-08-01T16:32:51.5Z'}
+2021-08-01 11:33:03.289 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for XTZ-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XTZ-USDT', 'requested_qty': 47.73567481, 'executed_qty': 47.73567481, 'avg_price': 3.052590409792931, 'commission': 0.29143492, 'executed_time': datetime.datetime(2021, 8, 1, 11, 33, 1, 274545)}
+2021-08-01 11:33:07.373 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for CELO-BTC
+2021-08-01 11:33:08.845 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '978f5a48-8ce9-4435-ab2b-faea327adb17', 'marketSymbol': 'CELO-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '65.08708615', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '65.08708615', 'commission': '0.00000859', 'proceeds': '0.00429770', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:32:57.65Z', 'updatedAt': '2021-08-01T16:32:57.65Z', 'closedAt': '2021-08-01T16:32:57.65Z'}
+2021-08-01 11:33:08.846 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for CELO-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'CELO-BTC', 'requested_qty': 65.08708615, 'executed_qty': 65.08708615, 'avg_price': 6.602999541407493e-05, 'commission': 8.59e-06, 'executed_time': datetime.datetime(2021, 8, 1, 11, 33, 7, 394344)}
+2021-08-01 11:33:10.265 | INFO     | BL.bot.SwT:sendTradeOrder:3906 - Creating BUY for XLM-BTC
+2021-08-01 11:33:11.586 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'e73eee79-d8ff-4946-939e-292a36d44ca9', 'marketSymbol': 'XLM-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '544.81164296', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '544.81164296', 'commission': '0.00000751', 'proceeds': '0.00375920', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:33:00.5Z', 'updatedAt': '2021-08-01T16:33:00.5Z', 'closedAt': '2021-08-01T16:33:00.5Z'}
+2021-08-01 11:33:11.588 | INFO     | BL.bot.SwT:sendTradeOrder:3908 - BUY response for XLM-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'XLM-BTC', 'requested_qty': 544.81164296, 'executed_qty': 544.81164296, 'avg_price': 6.899999382494841e-06, 'commission': 7.51e-06, 'executed_time': datetime.datetime(2021, 8, 1, 11, 33, 10, 266660)}
+2021-08-01 11:33:14.640 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for PPC-BTC
+2021-08-01 11:33:16.848 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '67128744-588b-47b0-91d5-af5b646b9cfc', 'marketSymbol': 'PPC-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '197.21187242', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '197.21187242', 'commission': '0.00000891', 'proceeds': '0.00446091', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:33:05.75Z', 'updatedAt': '2021-08-01T16:33:05.75Z', 'closedAt': '2021-08-01T16:33:05.75Z'}
+2021-08-01 11:33:16.849 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for PPC-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'PPC-BTC', 'requested_qty': 197.21187242, 'executed_qty': 197.21187242, 'avg_price': 2.261988563497662e-05, 'commission': 8.91e-06, 'executed_time': datetime.datetime(2021, 8, 1, 11, 33, 14, 641461)}
+2021-08-01 11:33:19.519 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for DOGE-BTC
+2021-08-01 11:33:20.869 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '5c37f0e4-4c9c-48cc-9c66-b84ddde5dbb3', 'marketSymbol': 'DOGE-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '1049.26732941', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '1049.26732941', 'commission': '0.00001061', 'proceeds': '0.00530929', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:33:09.76Z', 'updatedAt': '2021-08-01T16:33:09.76Z', 'closedAt': '2021-08-01T16:33:09.76Z'}
+2021-08-01 11:33:20.870 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for DOGE-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'DOGE-BTC', 'requested_qty': 1049.26732941, 'executed_qty': 1049.26732941, 'avg_price': 5.059997439342173e-06, 'commission': 1.061e-05, 'executed_time': datetime.datetime(2021, 8, 1, 11, 33, 19, 530382)}
+2021-08-01 11:33:23.565 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for STRAX-BTC
+2021-08-01 11:33:24.889 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '5f0d020e-fd74-4db9-9f23-662fadd15777', 'marketSymbol': 'STRAX-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '138.51656140', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '138.51656140', 'commission': '0.00001263', 'proceeds': '0.00631929', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:33:13.8Z', 'updatedAt': '2021-08-01T16:33:13.8Z', 'closedAt': '2021-08-01T16:33:13.8Z'}
+2021-08-01 11:33:24.891 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for STRAX-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'STRAX-BTC', 'requested_qty': 138.5165614, 'executed_qty': 138.5165614, 'avg_price': 4.562118735933334e-05, 'commission': 1.263e-05, 'executed_time': datetime.datetime(2021, 8, 1, 11, 33, 23, 566584)}
+2021-08-01 11:33:27.569 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for NMR-BTC
+2021-08-01 11:33:28.936 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '5d7d8ef3-490f-4dca-8051-06eef32af8b7', 'marketSymbol': 'NMR-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '8.20813929', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '8.20813929', 'commission': '0.00001530', 'proceeds': '0.00765376', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:33:17.83Z', 'updatedAt': '2021-08-01T16:33:17.83Z', 'closedAt': '2021-08-01T16:33:17.83Z'}
+2021-08-01 11:33:28.937 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for NMR-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-BTC', 'requested_qty': 8.20813929, 'executed_qty': 8.20813929, 'avg_price': 0.0009324598096580302, 'commission': 1.53e-05, 'executed_time': datetime.datetime(2021, 8, 1, 11, 33, 27, 579848)}
+2021-08-01 11:33:31.724 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for NMR-USDT
+2021-08-01 11:33:33.073 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '6f5bf7df-1d6d-41fc-8531-161ee5f1b544', 'marketSymbol': 'NMR-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '7.74733362', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '7.74733362', 'commission': '0.59048592', 'proceeds': '295.24296346', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:33:21.95Z', 'updatedAt': '2021-08-01T16:33:21.95Z', 'closedAt': '2021-08-01T16:33:21.95Z'}
+2021-08-01 11:33:33.074 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for NMR-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-USDT', 'requested_qty': 7.74733362, 'executed_qty': 7.74733362, 'avg_price': 38.108977609770214, 'commission': 0.59048592, 'executed_time': datetime.datetime(2021, 8, 1, 11, 33, 31, 725756)}
+2021-08-01 11:33:35.751 | INFO     | BL.bot.SwT:sendTradeOrder:3913 - Creating SELL for XLM-USDT
+2021-08-01 11:33:57.270 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'f207d6e4-c3c1-4f82-8e50-9b7a9274de91', 'marketSymbol': 'XLM-USDT', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '1035.63978253', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '1035.63978253', 'commission': '0.58396384', 'proceeds': '291.98192145', 'status': 'CLOSED', 'createdAt': '2021-08-01T16:33:26.43Z', 'updatedAt': '2021-08-01T16:33:26.43Z', 'closedAt': '2021-08-01T16:33:26.43Z'}
+2021-08-01 11:33:57.270 | INFO     | BL.bot.SwT:sendTradeOrder:3915 - SELL response for XLM-USDT: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'XLM-USDT', 'requested_qty': 1035.63978253, 'executed_qty': 1035.63978253, 'avg_price': 0.28193385999204024, 'commission': 0.58396384, 'executed_time': datetime.datetime(2021, 8, 1, 11, 33, 35, 752982)}

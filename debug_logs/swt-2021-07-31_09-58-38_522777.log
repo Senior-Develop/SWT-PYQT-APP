@@ -1,0 +1,468 @@
+2021-07-31 09:58:38.792 | INFO     | BL.bot.SwT:<module>:66 - Running in test mode: False
+2021-07-31 09:58:38.792 | INFO     | BL.bot.SwT:<module>:67 - Running on selected quote currencies: False
+2021-07-31 09:58:38.792 | INFO     | BL.bot.SwT:<module>:68 - Always generate ST long buy signal: False
+2021-07-31 09:58:38.792 | INFO     | BL.bot.SwT:<module>:69 - Always generate ST short sell signal: False
+2021-07-31 10:00:56.218 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:00:56.219 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:01:32.415 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:01:32.417 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:02:52.634 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:02:52.635 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:12.108 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:12.110 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:30.528 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAXP-USDT conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:03:30.537 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAXP-USDT, S_TradingEnabled: 1, sSellTradeCount: 1, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:03:53.824 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:53.825 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:54.901 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:54.903 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:54.910 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:54.912 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:56.773 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3645 - ST signal
+2021-07-31 10:03:56.774 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2132 - symbol: NMR-USDT conditions_r: [True, True, True, True, True, True, True]
+2021-07-31 10:03:56.785 | DEBUG    | BL.bot.SwT:monitorEntry:2458 - Max concurrent trades reached.
+2021-07-31 10:03:56.787 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:56.795 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:56.797 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:03:58.911 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3645 - ST signal
+2021-07-31 10:03:58.912 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2132 - symbol: NMR-USDT conditions_r: [True, True, True, True, True, True, True]
+2021-07-31 10:03:58.921 | DEBUG    | BL.bot.SwT:monitorEntry:2458 - Max concurrent trades reached.
+2021-07-31 10:03:58.923 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:04:19.053 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MONA-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:04:19.061 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:04:19.062 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MONA-BTC, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:04:19.071 | DEBUG    | BL.bot.SwT:monitorEntry:2458 - Max concurrent trades reached.
+2021-07-31 10:04:21.164 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MONA-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:04:21.170 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:04:21.171 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MONA-BTC, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:04:21.175 | DEBUG    | BL.bot.SwT:monitorEntry:2458 - Max concurrent trades reached.
+2021-07-31 10:04:38.252 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MONA-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:04:38.259 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:04:38.260 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MONA-BTC, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:04:38.264 | DEBUG    | BL.bot.SwT:monitorEntry:2458 - Max concurrent trades reached.
+2021-07-31 10:04:39.209 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MONA-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:04:39.216 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:04:39.217 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MONA-BTC, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:04:39.220 | DEBUG    | BL.bot.SwT:monitorEntry:2458 - Max concurrent trades reached.
+2021-07-31 10:04:48.452 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MONA-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:04:48.464 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:04:48.465 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MONA-BTC, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:04:48.470 | DEBUG    | BL.bot.SwT:monitorEntry:2458 - Max concurrent trades reached.
+2021-07-31 10:04:54.384 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: MONA-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:04:54.391 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:04:54.392 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: MONA-BTC, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:04:54.395 | DEBUG    | BL.bot.SwT:monitorEntry:2458 - Max concurrent trades reached.
+2021-07-31 10:05:00.578 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:00.584 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:04.708 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:04.709 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.261 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.263 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.276 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.277 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.314 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.316 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.323 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.351 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.391 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.392 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.416 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.417 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.433 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.434 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.461 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.463 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.508 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.509 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.561 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.567 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.585 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.609 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.773 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.774 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.788 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.790 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.796 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.799 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.818 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.819 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.829 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.842 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.872 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.873 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.905 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.909 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.916 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.919 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.927 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.928 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.935 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.939 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.946 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.949 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.956 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.958 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.972 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.974 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.980 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.986 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:12.995 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:13.005 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:13.013 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:13.040 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:13.047 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:13.059 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:13.082 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:13.084 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:13.092 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:13.095 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:24.423 | INFO     | BL.bot.SwT:sendTradeOrder:3905 - Creating BUY for SOLVE-BTC
+2021-07-31 10:05:25.771 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'e8d49137-cd48-40ef-b661-3f7a625e7eab', 'marketSymbol': 'SOLVE-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '982.86293793', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '982.86293793', 'commission': '0.00000228', 'proceeds': '0.00114012', 'status': 'CLOSED', 'createdAt': '2021-07-31T15:05:14.27Z', 'updatedAt': '2021-07-31T15:05:14.27Z', 'closedAt': '2021-07-31T15:05:14.27Z'}
+2021-07-31 10:05:25.772 | INFO     | BL.bot.SwT:sendTradeOrder:3907 - BUY response for SOLVE-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'SOLVE-BTC', 'requested_qty': 982.86293793, 'executed_qty': 982.86293793, 'avg_price': 1.1599989744258723e-06, 'commission': 2.28e-06, 'executed_time': datetime.datetime(2021, 7, 31, 10, 5, 24, 424858)}
+2021-07-31 10:05:25.897 | INFO     | BL.bot.SwT:sendTradeOrder:3905 - Creating BUY for SOLVE-BTC
+2021-07-31 10:05:27.359 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'f37bfc49-dee7-4632-9202-132b586b54be', 'marketSymbol': 'SOLVE-BTC', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '982.86293793', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '982.86293793', 'commission': '0.00000228', 'proceeds': '0.00114012', 'status': 'CLOSED', 'createdAt': '2021-07-31T15:05:15.85Z', 'updatedAt': '2021-07-31T15:05:15.85Z', 'closedAt': '2021-07-31T15:05:15.85Z'}
+2021-07-31 10:05:27.363 | INFO     | BL.bot.SwT:sendTradeOrder:3907 - BUY response for SOLVE-BTC: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'SOLVE-BTC', 'requested_qty': 982.86293793, 'executed_qty': 982.86293793, 'avg_price': 1.1599989744258723e-06, 'commission': 2.28e-06, 'executed_time': datetime.datetime(2021, 7, 31, 10, 5, 25, 897940)}
+2021-07-31 10:05:28.723 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:28.732 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:35.160 | INFO     | BL.bot.SwT:sendTradeOrder:3905 - Creating BUY for WAXP-USDT
+2021-07-31 10:05:36.749 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '204a871a-cfa0-4050-86b0-d7a060c4ee72', 'marketSymbol': 'WAXP-USDT', 'direction': 'BUY', 'type': 'MARKET', 'quantity': '479.81694792', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '479.81694792', 'commission': '0.14841661', 'proceeds': '74.20830683', 'status': 'CLOSED', 'createdAt': '2021-07-31T15:05:25.05Z', 'updatedAt': '2021-07-31T15:05:25.05Z', 'closedAt': '2021-07-31T15:05:25.05Z'}
+2021-07-31 10:05:36.751 | INFO     | BL.bot.SwT:sendTradeOrder:3907 - BUY response for WAXP-USDT: {'status': 'FILLED', 'direction': 'BUY', 'order_type': 'MARKET', 'symbol': 'WAXP-USDT', 'requested_qty': 479.81694792, 'executed_qty': 479.81694792, 'avg_price': 0.15465961998985656, 'commission': 0.14841661, 'executed_time': datetime.datetime(2021, 7, 31, 10, 5, 35, 161336)}
+2021-07-31 10:05:41.858 | INFO     | BL.bot.SwT:sendTradeOrder:3912 - Creating SELL for TUSD-BTC
+2021-07-31 10:05:43.168 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': 'e227672b-1542-4ff9-a158-7f32d668937e', 'marketSymbol': 'TUSD-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '54.10669666', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '54.10669666', 'commission': '0.00000261', 'proceeds': '0.00130721', 'status': 'CLOSED', 'createdAt': '2021-07-31T15:05:31.69Z', 'updatedAt': '2021-07-31T15:05:31.69Z', 'closedAt': '2021-07-31T15:05:31.69Z'}
+2021-07-31 10:05:43.170 | INFO     | BL.bot.SwT:sendTradeOrder:3914 - SELL response for TUSD-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'TUSD-BTC', 'requested_qty': 54.10669666, 'executed_qty': 54.10669666, 'avg_price': 2.4159856001085248e-05, 'commission': 2.61e-06, 'executed_time': datetime.datetime(2021, 7, 31, 10, 5, 41, 859514)}
+2021-07-31 10:05:59.196 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:05:59.198 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:10.386 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:10.387 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:10.395 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:10.396 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:11.231 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:11.232 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:11.240 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:11.241 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:13.275 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:13.277 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:15.562 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:15.563 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:17.183 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:17.184 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:18.435 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:18.437 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:19.515 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:19.517 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:20.486 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:20.487 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:26.265 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:26.266 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:27.612 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:27.614 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:39.600 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:39.601 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:56.626 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:56.627 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:57.665 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:06:57.667 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:07:29.474 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:07:29.476 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:08:37.460 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:08:37.461 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:08:41.600 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:08:41.602 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:08:41.604 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: NMR-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:08:41.610 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:08:41.611 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: NMR-BTC, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:08:42.976 | DEBUG    | BL.bot.SwT:monitorEntry:2485 - Entering trade for NMR-BTC
+2021-07-31 10:08:42.979 | INFO     | BL.bot.SwT:sendTradeOrder:3912 - Creating SELL for NMR-BTC
+2021-07-31 10:08:44.747 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '0afddb85-c1a2-4eb9-82b2-833239acc32c', 'marketSymbol': 'NMR-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '0.82675770', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '0.82675770', 'commission': '0.00000152', 'proceeds': '0.00076284', 'status': 'CLOSED', 'createdAt': '2021-07-31T15:08:33.24Z', 'updatedAt': '2021-07-31T15:08:33.24Z', 'closedAt': '2021-07-31T15:08:33.24Z'}
+2021-07-31 10:08:44.748 | INFO     | BL.bot.SwT:sendTradeOrder:3914 - SELL response for NMR-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-BTC', 'requested_qty': 0.8267577, 'executed_qty': 0.8267577, 'avg_price': 0.000922688715206402, 'commission': 1.52e-06, 'executed_time': datetime.datetime(2021, 7, 31, 10, 8, 42, 989771)}
+2021-07-31 10:08:46.077 | DEBUG    | BL.bot.SwT:monitorEntry:2487 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'NMR-BTC', 'requested_qty': 0.8267577, 'executed_qty': 0.8267577, 'avg_price': 0.000922688715206402, 'commission': 1.52e-06, 'executed_time': datetime.datetime(2021, 7, 31, 10, 8, 42, 989771)}
+2021-07-31 10:08:46.094 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: NMR-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:08:46.119 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: NMR-BTC, S_TradingEnabled: 1, sSellTradeCount: 1, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:08:57.600 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:08:57.601 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:09:59.368 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:09:59.373 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.199 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.202 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.230 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.234 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.247 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.287 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.295 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.326 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.481 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.487 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.512 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.524 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.639 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.641 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.664 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.665 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.684 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.685 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.721 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.724 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.730 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.732 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.743 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.745 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.762 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.769 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.835 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.837 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.851 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.852 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.862 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.863 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.872 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.875 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.884 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.888 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.896 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.900 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.918 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.920 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.927 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.934 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.942 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.944 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.960 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.961 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.971 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.982 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.989 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:13.997 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.004 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.010 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.017 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.021 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.036 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.037 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.046 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.062 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.070 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.073 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.088 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.091 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.548 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:14.550 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:31.239 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:31.240 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:52.283 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:10:52.284 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:11:09.442 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:11:09.443 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:11:20.176 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:11:20.177 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:11:46.312 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:11:46.313 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:12:13.418 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:12:13.420 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:12:14.057 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:12:14.058 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:12:15.111 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:12:15.113 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:12:45.414 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:12:45.416 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:14:09.128 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: TUSD-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:14:09.136 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:14:09.137 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: TUSD-BTC, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:14:10.489 | DEBUG    | BL.bot.SwT:monitorEntry:2485 - Entering trade for TUSD-BTC
+2021-07-31 10:14:10.512 | INFO     | BL.bot.SwT:sendTradeOrder:3912 - Creating SELL for TUSD-BTC
+2021-07-31 10:14:11.828 | DEBUG    | BL.Exchanges.Bittrex.BittrexClient:_make_trade_order:230 - Order closed: {'id': '67088b5a-729d-433a-9495-9c2d04a422fa', 'marketSymbol': 'TUSD-BTC', 'direction': 'SELL', 'type': 'MARKET', 'quantity': '33.82068127', 'timeInForce': 'IMMEDIATE_OR_CANCEL', 'fillQuantity': '33.82068127', 'commission': '0.00000162', 'proceeds': '0.00081271', 'status': 'CLOSED', 'createdAt': '2021-07-31T15:14:00.34Z', 'updatedAt': '2021-07-31T15:14:00.34Z', 'closedAt': '2021-07-31T15:14:00.34Z'}
+2021-07-31 10:14:11.829 | INFO     | BL.bot.SwT:sendTradeOrder:3914 - SELL response for TUSD-BTC: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'TUSD-BTC', 'requested_qty': 33.82068127, 'executed_qty': 33.82068127, 'avg_price': 2.4029971292177936e-05, 'commission': 1.62e-06, 'executed_time': datetime.datetime(2021, 7, 31, 10, 14, 10, 512606)}
+2021-07-31 10:14:13.154 | DEBUG    | BL.bot.SwT:monitorEntry:2487 - Trade entry response: {'status': 'FILLED', 'direction': 'SELL', 'order_type': 'MARKET', 'symbol': 'TUSD-BTC', 'requested_qty': 33.82068127, 'executed_qty': 33.82068127, 'avg_price': 2.4029971292177936e-05, 'commission': 1.62e-06, 'executed_time': datetime.datetime(2021, 7, 31, 10, 14, 10, 512606)}
+2021-07-31 10:14:13.172 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: TUSD-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:14:13.180 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: TUSD-BTC, S_TradingEnabled: 1, sSellTradeCount: 1, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:14:56.888 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: TUSD-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:14:56.895 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: TUSD-BTC, S_TradingEnabled: 1, sSellTradeCount: 1, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:15:06.986 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:06.987 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.034 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.036 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.042 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.043 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.088 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.089 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.109 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.110 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.127 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.128 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.150 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.151 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.167 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.168 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.182 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.183 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.198 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.199 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.213 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.214 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.238 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.240 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.265 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.266 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.340 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.341 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.354 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.355 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.363 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.364 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.376 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.378 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.385 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.394 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.401 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.406 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.445 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.446 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.452 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.454 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.468 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.470 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.478 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.495 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.510 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.513 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.539 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.544 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.568 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.575 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.603 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.610 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.669 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.682 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.703 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.704 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.712 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.717 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.732 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.733 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.741 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:14.757 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:25.641 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:25.652 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:27.708 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:27.721 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:28.629 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:28.638 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:36.675 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAXP-ETH conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:15:36.711 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAXP-ETH, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 1, fBuyTradeCount: 0
+2021-07-31 10:15:40.835 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:40.837 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:44.782 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:15:44.783 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:16:03.450 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:16:03.452 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:16:31.308 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:16:31.309 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:16:55.285 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: WAXP-ETH conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:16:55.294 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: WAXP-ETH, S_TradingEnabled: 1, sSellTradeCount: 0, rBuyTradeCount: 1, fBuyTradeCount: 0
+2021-07-31 10:16:55.303 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:16:55.304 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:10.495 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:10.497 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:16.004 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:16.005 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:23.087 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2135 - symbol: ENJ-BTC conditions_s: [True, True, True, True, True, True, True]
+2021-07-31 10:17:23.094 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2193 - Symbol: ENJ-BTC, S_TradingEnabled: 1, sSellTradeCount: 1, rBuyTradeCount: 0, fBuyTradeCount: 0
+2021-07-31 10:17:24.114 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:24.115 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:25.098 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:25.099 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:52.136 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:17:52.138 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:18:06.352 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:18:06.354 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:18:25.194 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:18:25.196 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:18:51.694 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:18:51.696 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:19:16.332 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:19:16.333 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:19:36.425 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:19:36.427 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:19:51.543 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:19:51.544 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:09.425 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:09.430 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:10.730 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:10.731 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.620 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.629 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.668 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.670 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.677 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.684 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.720 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.722 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.731 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.732 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.765 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.774 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.808 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.810 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.817 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.829 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.865 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.866 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.873 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.878 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.896 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.897 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.930 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.931 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.957 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.959 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.981 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.982 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.989 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:14.999 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.015 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.016 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.023 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.024 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.031 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.037 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.052 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.053 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.060 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.072 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.079 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.084 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.091 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.092 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.099 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.100 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.107 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.113 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.284 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.285 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.307 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.308 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.316 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.322 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.331 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.340 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.357 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.360 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.375 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.376 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.449 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:15.450 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:18.099 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:18.101 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:20.090 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:20.091 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:54.385 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:20:54.386 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:21:35.680 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:21:35.685 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:21:36.602 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:21:36.603 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:21:53.428 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:21:53.429 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:23:15.534 | DEBUG    | BL.bot.SwT:checkEntryForRbuy:3645 - ST signal
+2021-07-31 10:23:15.535 | DEBUG    | BL.bot.SwT:runTradingAlgorithm:2132 - symbol: USDC-ETH conditions_r: [True, True, True, True, True, True, True]
+2021-07-31 10:24:05.351 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
+2021-07-31 10:24:05.353 | DEBUG    | BL.bot.SwT:monitorEntry:2451 - No signal.
